@@ -5,6 +5,7 @@ printf("sumit");
 int number=25;
 char star='*';
 int age =22;
+printf("\nthis is my name ");
 
 return 0;
 }
