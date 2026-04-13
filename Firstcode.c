@@ -1,24 +1,24 @@
-// #include <stdio.h> 
-// int main(){
+#include <stdio.h> 
+int main(){
 
-// printf("sumit");
-// int number=25;
-// char star='*';
+printf("sumit\n");
+
+int number=25;
+ printf("%d",number);
+// this is the single line comment.
+/*this
+is the 
+multiple line comment */
+char star='*';
+printf("\n%c",star);
+float pi=3.14;
+printf("\n%f",pi);
+int num ;
+printf("\nenter your number :");
+scanf("%d",&num);
+printf("\nthe number is %d",num);
 // int age =22;
 // printf("\nthis is my name ");
 
-// return 0;
-// }
-# include<stdio.h>
-int mian(){
-int year;
- printf("Enter a year:");
- scanf("%d",&year);
- if((year%4==0&&year&100!=0)||(year%400==0)){
-    printf("%d is  A LEAP YEAR.\n",year);
-
- }else{
-    printf("%d is not a leap year.\n");
- }
 return 0;
 }
