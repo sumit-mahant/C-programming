@@ -16,7 +16,16 @@ printf("\n%f",pi);
 int num ;
 printf("\nenter your number :");
 scanf("%d",&num);
-printf("\nthe number is %d",num);
+printf("\nthe number is %d\n",num);
+int a,b;
+printf("enter a number ");
+scanf("%d",&a);
+printf("enter  the second number ");
+scanf("%d",&b);
+int sum=a+b;
+printf("the sum is %d",sum);
+
+
 // int age =22;
 // printf("\nthis is my name ");
 
