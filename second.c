@@ -1,6 +1,9 @@
 # include<stdio.h>
 int main(){
-printf("hello world");
-printf("\n this is my name");
-printf("\nlet me know your name");
+// radius of a circle 3.14*r*r 
+float radius;
+printf("radius of the circle-:");
+scanf("%f",& radius );
+printf("\narea is %f",radius*3.14*radius);
+
 }
