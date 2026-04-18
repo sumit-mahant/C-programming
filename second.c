@@ -1,4 +1,5 @@
 # include<stdio.h>
+# include<math.h>
 int main(){
 //radius of a circle 3.14*r*r 
 // float radius;
@@ -21,7 +22,9 @@ int main(){
 //  int a,b,c;
 //  a=b=c=5;
 //  printf("%d",a);
-int a=1,b=2;
+int a=3,b=2;
 int sum=(a+b);
-printf("%d",sum);
+printf("%d\n",sum);
+int power =pow(a,b);
+printf("%d",power);
 }
