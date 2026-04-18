@@ -22,13 +22,15 @@ int main(){
 //  int a,b,c;
 //  a=b=c=5;
 //  printf("%d",a);
-int a=3,b=2;
-int sum=(a+b);
-printf("%d\n",sum);
-int power =pow(a,b);
-printf("%d\n",power);
-printf("%d\n",a%b);
-printf("%d\n",16%3);
+// int a=3,b=2;
+// int sum=(a+b);
+// printf("%d\n",sum);
+// int power =pow(a,b);
+// printf("%d\n",power);
+// printf("%d\n",a%b);
+// printf("%d\n",16%3);
 int d=1.99999999;
+int f=2.34567;
+printf("%d\n",f);
 printf("%d",d);
 }
