@@ -29,8 +29,8 @@ int main(){
 // printf("%d\n",power);
 // printf("%d\n",a%b);
 // printf("%d\n",16%3);
-int d=1.99999999;
+float d=(int) 5.99999999;
 int f=2.34567;
 printf("%d\n",f);
-printf("%d",d);
+printf("%f",d);
 }
