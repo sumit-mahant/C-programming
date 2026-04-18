@@ -26,5 +26,6 @@ int a=3,b=2;
 int sum=(a+b);
 printf("%d\n",sum);
 int power =pow(a,b);
-printf("%d",power);
+printf("%d\n",power);
+printf("%d",a%b);
 }
