@@ -39,6 +39,7 @@ int main(){
 // printf("\n%d",20==1);
 // printf("\n%d",20!=20);
 // printf("\n%d",20!=20);
-printf("\n%d",20!=20||2>3);
+printf("\n%d",!(20!=20||2<3));
+ printf("\n%d",!(20!=20));
 
 }
