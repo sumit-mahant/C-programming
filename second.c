@@ -1,5 +1,5 @@
 # include<stdio.h>
-# include<math.h>
+// # include<math.h>
 int main(){
 //radius of a circle 3.14*r*r 
 // float radius;
@@ -39,7 +39,21 @@ int main(){
 // printf("\n%d",20==1);
 // printf("\n%d",20!=20);
 // printf("\n%d",20!=20);
-printf("\n%d",!(20!=20||2<3));
- printf("\n%d",!(20!=20));
-
+// printf("\n%d",!(20!=20||2<3));
+//  printf("\n%d",!(20!=20));
+// int a;
+// int b;
+// int c;
+// int d=(a+b+c);
+// printf("Enter the first number-:\n");
+// scanf("%d",&a);
+// printf("Enter the second number-:\n");
+// scanf("%d",&b);
+// printf("Enter the third number-:\n");
+// scanf("%d",&c);
+// printf("%d this is avg of these numers",d);
+int a=12;
+int b=10;
+int c=5;
+printf("%d",( a+b+c)/3);
 }
