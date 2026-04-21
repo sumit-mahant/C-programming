@@ -59,23 +59,27 @@ int main(){
 
 // }
 
-int marks;
-printf("Enter your marks");
-scanf("%d",&marks);
-if(marks>=90){
-   printf("excellent  student\n");
-}
-else if(marks>=80 ){
-    printf("you are very good student\n ");
+// int marks;
+// printf("Enter your marks");
+// scanf("%d",&marks);
+// if(marks>=90){
+//    printf("excellent  student\n");
+// }
+// else if(marks>=80 ){
+//     printf("you are very good student\n ");
 
-}
-else if(marks>=70 ){
-    printf("you are a good student, you could do better\n  ");
-}
-else if(marks>=50 ){
-    printf("you are a average student you should have do better\n  ");
-}
-else{
-    printf("you are fail you have to do better\n");
-}
+// }
+// else if(marks>=70 ){
+//     printf("you are a good student, you could do better\n  ");
+// }
+// else if(marks>=50 ){
+//     printf("you are a average student you should have do better\n  ");
+// }
+// else{
+//     printf("you are fail you have to do better\n");
+// }
+int age;
+printf("Enter your age-:");
+scanf("%d",&age);
+age>18?printf("you are an adult"):printf("you are not a adult");
 }
