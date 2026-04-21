@@ -1,6 +1,6 @@
-// # include<stdio.h>
+# include<stdio.h>
 // # include<math.h>
-// int main(){
+int main(){
 //radius of a circle 3.14*r*r 
 // float radius;
 // printf("radius of the circle-:");
@@ -58,8 +58,7 @@
 //     printf("you are a teenager");
 
 // }
-# include<stdio.h>
-int main(){
+
 int marks;
 printf("Enter your marks");
 scanf("%d",&marks);
