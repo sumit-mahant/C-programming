@@ -1,6 +1,6 @@
-# include<stdio.h>
+// # include<stdio.h>
 // # include<math.h>
-int main(){
+// int main(){
 //radius of a circle 3.14*r*r 
 // float radius;
 // printf("radius of the circle-:");
@@ -58,5 +58,25 @@ int main(){
 //     printf("you are a teenager");
 
 // }
+# include<stdio.h>
+int main(){
+int marks;
+printf("Enter your marks");
+scanf("%d",&marks);
+if(marks>=90){
+   printf("excellent  student\n");
+}
+else if(marks>=80 ){
+    printf("you are very good student\n ");
 
+}
+else if(marks>=70 ){
+    printf("you are a good student, you could do better\n  ");
+}
+else if(marks>=50 ){
+    printf("you are a average student you should have do better\n  ");
+}
+else{
+    printf("you are fail you have to do better\n");
+}
 }
