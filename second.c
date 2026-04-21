@@ -97,6 +97,23 @@ int main(){
 //     case 7:printf("sunday");
 //           break;
 //     default : printf("this is not a valid day ");
+int num;
+printf("Enter the number-:");
+scanf("%d",&num);
+if(num>0){
+    printf(" positive\n");
+    if(num%2==0){
+      printf("even");
+    }
+    else{
+        printf("odd");
+    }
+    }
+else{
+    printf("negative");
+}
+    
 }
 
-}
+
+
