@@ -41,19 +41,11 @@ int main(){
 // printf("\n%d",20!=20);
 // printf("\n%d",!(20!=20||2<3));
 //  printf("\n%d",!(20!=20));
-// int a;
-// int b;
-// int c;
-// int d=(a+b+c);
-// printf("Enter the first number-:\n");
-// scanf("%d",&a);
-// printf("Enter the second number-:\n");
-// scanf("%d",&b);
-// printf("Enter the third number-:\n");
-// scanf("%d",&c);
-// printf("%d this is avg of these numers",d);
-int a=12;
-int b=10;
-int c=5;
-printf("%d",( a+b+c)/3);
+
+int num1,num2,num3;
+float average;
+printf("Enter the three number-:");
+scanf("%d %d %d",&num1,&num2,&num3);
+average=(num1+num2+num3)/3;
+printf("average=%f",average);
 }
