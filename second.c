@@ -110,7 +110,7 @@ int main(){
 //     }
 //     }
 // else{
-//     printf("negative");
+    printf("negative");
 // }
     
 }
