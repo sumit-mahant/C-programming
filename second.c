@@ -142,7 +142,7 @@ int main()
         for(int j;j<3;j++){
             if(i==j){
                 sum = sum + arr[i][j];
-               printf("sum  is -: %d",sum) 
+               printf("sum  is -: %d",sum); 
             }
         }
     }
