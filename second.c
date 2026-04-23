@@ -131,4 +131,11 @@ int main()
     // }
 
     // printf("%d", sum);
+    int arr[3][3];
+    int sum=0;
+    for(int i;i<3;i++){
+       for(int j;j<3;j++){
+       scanf("%d",arr[i][j]);
+       }
+    }
 }
