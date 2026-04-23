@@ -135,14 +135,14 @@ int main()
     int sum=0;
     for(int i;i<3;i++){
        for(int j;j<3;j++){
-       scanf("%d",arr[i][j]);
+        scanf("%d",&arr[i][j]);
        }
     }
     for(int i;i<3;i++){
         for(int j;j<3;j++){
             if(i==j){
                 sum = sum + arr[i][j];
-               printf("sum  is -: %d",sum); 
+              printf("sum  is -: %d",sum);  
             }
         }
     }
