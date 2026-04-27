@@ -59,4 +59,37 @@ for (int i = 0; i < 10; i++)
     }
     
 }
-// }
+int arr[3][3];
+    int sum = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            sum = sum + arr[i][j];
+        }
+    }
+
+    printf("%d", sum);
+    int arr[3][3];
+    int sum=0;
+    for(int i;i<3;i++){
+       for(int j;j<3;j++){
+        scanf("%d",&arr[i][j]);
+       }
+    }
+    for(int i;i<3;i++){
+        for(int j;j<3;j++){
+            if(i==j){
+                sum = sum + arr[i][j];
+              printf("sum  is -: %d",sum);  
+            }
+        }
+    }
+}
