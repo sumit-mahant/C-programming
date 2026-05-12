@@ -119,3 +119,13 @@ int main()
 //     scanf("%d",& number );
 //     if((int) number ==(int)number[]);
 // }
+int a, b;
+printf("Enter the first number ");
+scanf("%d",&a);
+printf("Enter the second number ");
+scanf("%d",&b);
+int sum=a+b;
+printf("the sum of these two numbers%d",sum);
+
+
+}
