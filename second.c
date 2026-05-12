@@ -114,8 +114,8 @@ int main()
     // printf("negative");
     // }
     
-    int number;
-    printf("Enter a num for check for armstrong");
-    scanf("%d",& number );
-    if(number==)
-}
+//     int number;
+//     printf("Enter a num for check for armstrong");
+//     scanf("%d",& number );
+//     if((int) number ==(int)number[]);
+// }
