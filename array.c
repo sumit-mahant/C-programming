@@ -29,7 +29,31 @@ int main(){
 //ternary operator
 //condition?do something if true :do something if false 
 // age>18?printf("adult\n"):printf("miner");
+int days ;//1-mon,2-tue,3-wed.....
+printf("Enter a day(1-7)"),
+scanf("%d",&days);
+switch(days){
+    case 1 :printf("Monday\n");
+    break;
+     case 2 :printf("tueday\n");
+    break;
+     case 3 :printf("wednsday\n");
+    break;
+     case 4 :printf("thursday\n");
+    break;
+     case 5 :printf("friday\n");
+    break;
+     case 6 :printf("saturday\n");
+    break;
+     case 7 :printf("sunday\n");
+    break;
+    default:printf("not a valid day  ");
 
+
+
+
+
+}
 
 
 
