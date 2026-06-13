@@ -49,19 +49,19 @@ int main(){
 //     break;
 //     default:printf("not a valid day  ");
 
-int num;
-printf("Enter a number "),
-scanf("%d",&num);
-if(num>=0){
-    printf("number is positive\n");
-    if(num%2==0){
-        printf("the number is also even");
-    }else{
-        printf("the number is odd");
-    }
-}else{
-    printf("the number is negative");
-}
+// int num;
+// printf("Enter a number "),
+// scanf("%d",&num);
+// if(num>=0){
+//     printf("number is positive\n");
+//     if(num%2==0){
+//         printf("the number is also even");
+//     }else{
+//         printf("the number is odd");
+//     }
+// }else{
+//     printf("the number is negative");
+// }
 
 
 
