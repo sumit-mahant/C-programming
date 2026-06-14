@@ -75,7 +75,18 @@ scanf("%d",&marks);
 //     printf("the student is fail");
 // }
 // marks <=30?printf("fail"):printf("Pass");
-
+if(marks<30){
+    printf("your grade is 'c'");
+}else if (marks>=30&&marks<70){
+    printf("your grade is 'B'");
+}else if (marks>=70&&marks<90){
+    printf("your grade is 'A'");
+}else if(marks>=90&&marks<=100){
+    printf("your grade is 'A+");
+}
+else{
+    printf("the number is invalid ");
+}
 
 
 
