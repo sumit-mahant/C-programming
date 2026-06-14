@@ -66,27 +66,27 @@ int main(){
 
 
 // }
-int marks;
-printf("Enter the marks");
-scanf("%d",&marks);
+// int marks;
+// printf("Enter the marks");
+// scanf("%d",&marks);
 // if(marks>30){
 //     printf("the student is pass \n");
 // }else{
 //     printf("the student is fail");
 // }
 // marks <=30?printf("fail"):printf("Pass");
-if(marks<30){
-    printf("your grade is 'c'");
-}else if (marks>=30&&marks<70){
-    printf("your grade is 'B'");
-}else if (marks>=70&&marks<90){
-    printf("your grade is 'A'");
-}else if(marks>=90&&marks<=100){
-    printf("your grade is 'A+");
-}
-else{
-    printf("the number is invalid ");
-}
+// if(marks<30){
+//     printf("your grade is 'c'");
+// }else if (marks>=30&&marks<70){
+//     printf("your grade is 'B'");
+// }else if (marks>=70&&marks<90){
+//     printf("your grade is 'A'");
+// }else if(marks>=90&&marks<=100){
+//     printf("your grade is 'A+");
+// }
+// else{
+//     printf("the number is invalid ");
+// }
 
 
 
