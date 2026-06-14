@@ -88,6 +88,16 @@ int main(){
 //     printf("the number is invalid ");
 // }
 
+// for check weather the character is uppercase OR lowercase.
+// char ch;
+// printf("Enter the charcter ");
+// scanf("%c",&ch);
 
-
+// if(ch>='a'&&ch<='z'){
+//     printf("the charcter in 'Lowercase' ");
+// }else if(ch>='A'&&ch<='Z'){
+//     printf("the character in 'Uppercase' ");
+// }else{
+//     printf("not English "); 
+// }
 }
