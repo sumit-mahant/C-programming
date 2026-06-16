@@ -101,12 +101,12 @@ int main(){
 //     printf("not English "); 
 // }
 
-for(int i=0; i<=10; i= i+2) {
-    printf("%d \n",i);
-}
-for(int i=10; i>=1; i=i-1){
-    printf("%d\n",i);
-}
+// for(int i=0; i<=10; i= i+2) {
+//     printf("%d \n",i);
+// }
+// for(int i=10; i>=1; i=i-1){
+//     printf("%d\n",i);
+// }
 
 
 }
