@@ -134,6 +134,17 @@ int main(){
 //         break;
 //     }
 // } while (1);
+int n ;
+do
+{
+    printf("Enter a number-:");
+    scanf("%d",&n);
+    if(n%7==0){
+        break;
+    }
+    
+} while (1);
+printf("thank you");
 
 
 
