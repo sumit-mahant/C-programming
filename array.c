@@ -107,6 +107,11 @@ int main(){
 // for(int i=10; i>=1; i=i-1){
 //     printf("%d\n",i);
 // }
-
+int n;
+printf("Enter a number-:");
+scanf("%d",&n);
+for(int i=1;i<=20;i++){
+    printf("%d\n",n*i);
+}
 
 }
