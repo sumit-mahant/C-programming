@@ -119,12 +119,21 @@ int main(){
 //     }
 //     printf("%d\n",i);
 // }
-for(int i=0;i<=6;i++){
-    if(i==10){
+// for(int i=0;i<=6;i++){
+//     if(i==10){
+//         break;
+//     }
+//     printf("%d\n",i);
+// }
+int n;
+do
+{
+    printf("Enter a number-:");
+    scanf("%d",&n);
+    if(n%2!=0){
         break;
     }
-    printf("%d\n",i);
-}
+} while (1);
 
 
 
