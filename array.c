@@ -145,15 +145,15 @@ int main(){
     
 // } while (1);
 // printf("thank you");
-for ( int i = 0; i <=10; i++)
-{
-    if (i==5)
-    {
-        continue;//for skip the itration !
-    }
+// for ( int i = 0; i <=10; i++)
+// {
+//     if (i==5)
+//     {
+//         continue;//for skip the itration !
+//     }
     
-    printf("%d\n",i);
-}
+//     printf("%d\n",i);
+// }
 
 
 
