@@ -119,4 +119,14 @@ int main(){
 //     }
 //     printf("%d\n",i);
 // }
+for(int i=0;i<=6;i++){
+    if(i==10){
+        break;
+    }
+    printf("%d\n",i);
+}
+
+
+
+
 }
