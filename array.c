@@ -125,15 +125,15 @@ int main(){
 //     }
 //     printf("%d\n",i);
 // }
-int n;
-do
-{
-    printf("Enter a number-:");
-    scanf("%d",&n);
-    if(n%2!=0){
-        break;
-    }
-} while (1);
+// int n;
+// do
+// {
+//     printf("Enter a number-:");
+//     scanf("%d",&n);
+//     if(n%2!=0){
+//         break;
+//     }
+// } while (1);
 
 
 
