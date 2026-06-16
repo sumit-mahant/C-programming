@@ -134,17 +134,27 @@ int main(){
 //         break;
 //     }
 // } while (1);
-int n ;
-do
+// int n ;
+// do
+// {
+//     printf("Enter a number-:");
+//     scanf("%d",&n);
+//     if(n%7==0){
+//         break;
+//     }
+    
+// } while (1);
+// printf("thank you");
+for ( int i = 0; i <=10; i++)
 {
-    printf("Enter a number-:");
-    scanf("%d",&n);
-    if(n%7==0){
-        break;
+    if (i==5)
+    {
+        continue;//for skip the itration !
     }
     
-} while (1);
-printf("thank you");
+    printf("%d\n",i);
+}
+
 
 
 
