@@ -165,6 +165,8 @@ int main(){
     
 //     printf("%d\n",i);
 // }
-
+int n;
+printf("Enter a number-:");
+scanf("%d",&n);
 
 }
