@@ -198,13 +198,13 @@ int main(){
 //           printf("* ");
 //      }printf("\n");
 // }
-int p,r;
-for(int p=1;p<=5;p++)
-{
-     for(int r=1;r<=p;r++)
-     {
-          printf("* ");
-     }
+// int p,r;
+// for(int p=1;p<=5;p++)
+// {
+//      for(int r=1;r<=p;r++)
+//      {
+//           printf("* ");
+//      }
      
-  printf("\n");}
+//   printf("\n");}
 }
