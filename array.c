@@ -185,18 +185,26 @@ int main(){
 //      sum=sum+i;
 // }
 // printf("%d",sum);
-int i,j;
-for(int i=1;i<=8;i++){
-     for(int j=1;j<=5;j++){
+// int i,j;
+// for(int i=1;i<=8;i++){
+//      for(int j=1;j<=5;j++){
+//           printf("* ");
+//      }
+// printf("\n");}
+// printf("new one\n");
+// int k,s;
+// for(int k=1;k<=2;k++){
+//      for(int s=6;s>=1;s--){
+//           printf("* ");
+//      }printf("\n");
+// }
+int p,r;
+for(int p=1;p<=5;p++)
+{
+     for(int r=1;r<=p;r++)
+     {
           printf("* ");
      }
-printf("\n");}
-printf("new one\n");
-int k,s;
-for(int k=1;k<=2;k++){
-     for(int s=6;s>=1;s--){
-          printf("* ");
-     }printf("\n");
-}
-
+     
+  printf("\n");}
 }
