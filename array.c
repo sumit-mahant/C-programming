@@ -186,10 +186,17 @@ int main(){
 // }
 // printf("%d",sum);
 int i,j;
-for(int i=1;i<=5;i++){
+for(int i=1;i<=8;i++){
      for(int j=1;j<=5;j++){
           printf("* ");
      }
 printf("\n");}
+printf("new one\n");
+int k,s;
+for(int k=1;k<=2;k++){
+     for(int s=6;s>=1;s--){
+          printf("* ");
+     }printf("\n");
+}
 
 }
