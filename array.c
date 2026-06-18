@@ -249,7 +249,9 @@ for(i=2;i*i<=num;i++){
 }
 }
 if(prime){
-     printf("%d is a prime number ",num);
+     printf("%d is a prime number\n ",num);
+}else{
+     printf("%d is not a prime number",num );
 }
 
 
