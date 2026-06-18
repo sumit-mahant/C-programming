@@ -220,21 +220,37 @@ int main(){
 //           printf("NOt prime ");
 //      }
 // }
-//CHECK FOR A PRIME NUMBER 
-int n;
-printf("Enter the number-:");
-scanf("%d",&n);
-if(n<=1){
-     printf("NOT PRIME");
-}
-for(int i=2;i*i<=n;i++){
-     if(n%i==0){
-          printf("NOT PRIME");
-     }
-printf("prime number");}
+//
+// int n;
+// printf("Enter the number-:");
+// scanf("%d",&n);
+// if(n<=1){
+//      printf("NOT PRIME");
+// }
+// for(int i=2;i*i<=n;i++){
+//      if(n%i==0){
+//           printf("NOT PRIME");
+//      }
+// printf("prime number");}
 
 // } printf("prime number");
-
+//CHECK FOR A PRIME NUMBER 
+int num,i,prime=1;
+printf("Enter a number:-");
+scanf("%d",&num);
+if(num<=1){
+    prime=0;
+}else{
+for(i=2;i*i<=num;i++){
+     if(num%i==0){
+          prime=0;
+          break;
+     }
+}
+}
+if(prime){
+     printf("%d is a prime number ",num);
+}
 
 
 }
