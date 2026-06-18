@@ -210,7 +210,16 @@ int main(){
 int num;
 printf("Enter a number:-");
 scanf("%d",&num);
-for()
+if(num<=1){
+     printf("NOt PRIME");
+}
+for(int i=2;i<num;i++){
+     if(num%i!=0){
+          printf("  prime number");
+     }else{
+          printf("NOt prime ");
+     }
+}
 }
 
 
@@ -222,4 +231,4 @@ for()
 
 
 
-}
+
