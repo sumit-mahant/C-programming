@@ -207,6 +207,9 @@ int main(){
 //      }
      
 //   printf("\n");}
+int num;
+printf("Enter a number:-");
+scanf("%d",&num);
 
 
 
