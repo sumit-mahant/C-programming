@@ -1,5 +1,5 @@
 # include<stdio.h>
-int main(){
+// int main(){
 // int a=10;
 // int b=a+10;
 // printf("%d\n",b);
@@ -254,11 +254,24 @@ int main(){
 //      printf("%d is not a prime number",num );
 // }
 // FUNCTION!!!!!
+int a=10;
+void num();
 
 
 
 
+int main(){
+    num();
+    return 0;
 }
+
+void num(){
+    a%2==0?printf("Even"):printf("Odd");
+}
+
+
+
+
 
 
 
