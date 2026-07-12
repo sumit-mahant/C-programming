@@ -31,8 +31,9 @@ int main(){
 int a=2;
 int b=10;
 int power=pow(a,b);
-printf("%d",power);
-
+printf("%d\n",power);
+printf("%d\n",5>3&&3>12);
+printf("%d",5>3||3>12);
 
 
 
