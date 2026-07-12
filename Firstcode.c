@@ -48,11 +48,13 @@ printf("Enter the number");
 printf("%d\n",x>9&&x<100);
 printf("%d",(10+20+30)/3);
 // printf("yes",a-z&&A-Z);
-int v;
-switch (expression)
+int day;
+printf("Enter the day");
+scanf("%d",day);
+switch (day)
 {
-case constant expression:
-    /* code */
+case 1:
+     printf("monday");
     break;
 
 default:
