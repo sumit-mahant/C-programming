@@ -49,22 +49,16 @@ int main(){
 // printf("%d",(10+20+30)/3);
 // // printf("yes",a-z&&A-Z);
 int day;
-printf("Enter the day");
+printf("Enter the day-:\n");
 scanf("%d",day);
-switch (day)
-{
-case 1:
-     printf("monday\n");
-    break;
-case 2:
-    printf("tuesday\n");
+switch(day){
+  case 1:printf("Monday\n");
+        break;
+  case 2:printf("tuesday\n");
+     break;
 
-default:
-printf("enter valid day bro");
-    break;
+  default:printf("bro Enter a valid day");
+
 }
-
-
-
 return 0;
 }
