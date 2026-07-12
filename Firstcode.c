@@ -34,7 +34,7 @@ int power=pow(a,b);
 printf("%d\n",power);
 printf("%d\n",5>3&&3>12);
 printf("%d\n",3<5||3>12);
-int x=5;
+int x;
 //short hand operator ! EG--:+=,-=,
 // a=a+b;when same variable in the both side!  ==a+=b;
 // a+=b;
@@ -42,6 +42,9 @@ b=b-a;
 // b-=a;😁
 printf("%d\n",a);
 printf("%d",b);
+
+printf("Enter the number");
+scanf("%d",&x);
 
 
 
