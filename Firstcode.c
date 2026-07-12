@@ -50,14 +50,14 @@ int main(){
 // // printf("yes",a-z&&A-Z);
 int day;
 printf("Enter the day-:\n");
-scanf("%d",day);
+scanf("%d",&day);
 switch(day){
-  case 1:printf("Monday\n");
+  case 1 : printf("Monday\n");
         break;
-  case 2:printf("tuesday\n");
+  case 2 : printf("tuesday\n");
      break;
 
-  default:printf("bro Enter a valid day");
+  default : printf("bro Enter a valid day");
 
 }
 return 0;
