@@ -34,6 +34,7 @@ int power=pow(a,b);
 printf("%d\n",power);
 printf("%d\n",5>3&&3>12);
 printf("%d",5>3||3>12);
+int x=5;
 
 
 
