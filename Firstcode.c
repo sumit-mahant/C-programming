@@ -41,10 +41,12 @@ int x;
 b=b-a;
 // b-=a;😁
 printf("%d\n",a);
-printf("%d",b);
+printf("%d\n",b);
 
 printf("Enter the number");
-scanf("%d",&x);
+// scanf("%d",&x);
+printf("%d\n",x>9&&x<100);
+printf("%d",(10+20+30)/3);
 
 
 
