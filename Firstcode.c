@@ -48,6 +48,16 @@ printf("Enter the number");
 printf("%d\n",x>9&&x<100);
 printf("%d",(10+20+30)/3);
 // printf("yes",a-z&&A-Z);
+int v;
+switch (expression)
+{
+case constant expression:
+    /* code */
+    break;
+
+default:
+    break;
+}
 
 
 
