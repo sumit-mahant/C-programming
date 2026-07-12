@@ -267,6 +267,7 @@ int main(){
 
 // void num(){
 //     a%2==0?printf("Even"):printf("Odd");
+int a=5;
 }
 
 
