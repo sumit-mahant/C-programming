@@ -54,10 +54,13 @@ scanf("%d",day);
 switch (day)
 {
 case 1:
-     printf("monday");
+     printf("monday\n");
     break;
+case 2:
+    printf("tuesday\n");
 
 default:
+printf("enter valid day bro");
     break;
 }
 
