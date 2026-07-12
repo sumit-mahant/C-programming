@@ -28,26 +28,26 @@ int main(){
 
 // // int age =22;
 // printf("\nthis is my name ");
-int a=2;
-int b=10;
-int power=pow(a,b);
-printf("%d\n",power);
-printf("%d\n",5>3&&3>12);
-printf("%d\n",3<5||3>12);
-int x;
+// int a=2;
+// int b=10;
+// int power=pow(a,b);
+// printf("%d\n",power);
+// printf("%d\n",5>3&&3>12);
+// printf("%d\n",3<5||3>12);
+// int x;
 //short hand operator ! EG--:+=,-=,
 // a=a+b;when same variable in the both side!  ==a+=b;
 // a+=b;
-b=b-a;
-// b-=a;😁
-printf("%d\n",a);
-printf("%d\n",b);
+// b=b-a;
+// // b-=a;😁
+// printf("%d\n",a);
+// printf("%d\n",b);
 
-printf("Enter the number");
-// scanf("%d",&x);
-printf("%d\n",x>9&&x<100);
-printf("%d",(10+20+30)/3);
-// printf("yes",a-z&&A-Z);
+// printf("Enter the number");
+// // scanf("%d",&x);
+// printf("%d\n",x>9&&x<100);
+// printf("%d",(10+20+30)/3);
+// // printf("yes",a-z&&A-Z);
 int day;
 printf("Enter the day");
 scanf("%d",day);
