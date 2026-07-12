@@ -39,7 +39,7 @@ int x=5;
 // a=a+b;when same variable in the both side!  ==a+=b;
 a+=b;
 b=b-a;
-// b-=a;
+// b-=a;😁
 printf("%d\n",a);
 printf("%d",b);
 
