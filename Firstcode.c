@@ -47,6 +47,7 @@ printf("Enter the number");
 // scanf("%d",&x);
 printf("%d\n",x>9&&x<100);
 printf("%d",(10+20+30)/3);
+// printf("yes",a-z&&A-Z);
 
 
 
