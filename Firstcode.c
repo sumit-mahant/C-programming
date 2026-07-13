@@ -112,10 +112,11 @@ int main(){
 // }while(1);
 for(int i=1;i<=10;i++){
   if(i==6){
-    continue;
+    continue;}
     printf("%d\n",i);
   }
-}
+  printf("hello world");
+
   
 
 
