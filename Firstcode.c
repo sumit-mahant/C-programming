@@ -60,5 +60,6 @@ switch(day){
   default : printf("bro Enter a valid day");
 
 }
+printf("hello world again");
 return 0;
 }
