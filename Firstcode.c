@@ -73,7 +73,10 @@ int main(){
 // }
 
 for(int i=2;i<=5;i++){
-  printf("%d\n",i);
+  printf("hello world\n");
+}
+for(char ch='a';ch<='z';ch++){
+  printf("%c\n",ch);
 }
 
 
