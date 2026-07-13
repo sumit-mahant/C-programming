@@ -61,16 +61,17 @@ int main(){
 
 // }
 // printf("hello world again");
-char ch;
-printf("Enter a charcter->\n");
-scanf("%c",&ch);
-if(ch>='a'&&ch<='z'){
-  printf("the letter is smalla");
-}else if(ch>='A'&&ch<='Z'){
-  printf("the letter is Capital\n");
-}else{
-  printf("This is not a charcter");
-}
+// char ch;
+// printf("Enter a charcter->\n");
+// scanf("%c",&ch);
+// if(ch>='a'&&ch<='z'){
+//   printf("the letter is smalla");
+// }else if(ch>='A'&&ch<='Z'){
+//   printf("the letter is Capital\n");
+// }else{
+//   printf("This is not a charcter");
+// }
+
 
 
 return 0;
