@@ -110,16 +110,20 @@ int main(){
 //   break;
 //  }
 // }while(1);
-for(int i=1;i<=10;i++){
-  if(i==6){
-    continue;}
-    printf("%d\n",i);
-  }
-  printf("hello world");
-for(int p=5;p<=50;p=p+2){
-  printf("%d ",p);
-}
-  
+// for(int i=1;i<=10;i++){
+//   if(i==6){
+//     continue;}
+//     printf("%d\n",i);
+//   }
+//   printf("hello world");
+// for(int p=5;p<=50;p=p+2){
+//   printf("%d ",p);
+// }
+ for(int num=5;num<=50;num++){
+  if(num%2==0){
+    continue;
+  }printf("%d",num);
+ } 
 
 
 
