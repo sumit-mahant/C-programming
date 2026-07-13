@@ -98,6 +98,10 @@ scanf("%d",&n);
 //   sum=sum+i;
 //   printf("%d\n",i);
 // }printf("sum of these number %d",sum);
+//table of the number !
+for(int i=1;i<=10;i++){
+  printf("%d\n",n*i);
+}
 
 
   
