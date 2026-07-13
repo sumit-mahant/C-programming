@@ -48,18 +48,22 @@ int main(){
 // printf("%d\n",x>9&&x<100);
 // printf("%d",(10+20+30)/3);
 // // printf("yes",a-z&&A-Z);
-int day;
-printf("Enter the day-:\n");
-scanf("%d",&day);
-switch(day){
-  case 1 : printf("Monday\n");
-        break;
-  case 2 : printf("tuesday\n");
-     break;
+// int day;
+// printf("Enter the day-:\n");
+// scanf("%d",&day);
+// switch(day){
+//   case 1 : printf("Monday\n");
+//         break;
+//   case 2 : printf("tuesday\n");
+//      break;
 
-  default : printf("bro Enter a valid day");
+//   default : printf("bro Enter a valid day");
 
-}
-printf("hello world again");
+// }
+// printf("hello world again");
+
+
+
+
 return 0;
 }
