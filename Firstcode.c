@@ -116,7 +116,9 @@ for(int i=1;i<=10;i++){
     printf("%d\n",i);
   }
   printf("hello world");
-
+for(int p=5;p<=50;p=p+2){
+  printf("%d ",p);
+}
   
 
 
