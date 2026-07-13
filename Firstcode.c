@@ -81,8 +81,12 @@ for(char ch='a';ch<='z';ch++){
 while(s<=6){
   printf("%d\n",s);
   s++;
+}int p=1;
+do{
+  printf("%d\n",p);
+  p++;
 }
-
+while(p<=10);
 
 return 0;
 }
