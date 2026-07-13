@@ -87,9 +87,9 @@ int main(){
 //   p++;
 // }
 // while(p<=10);
-int n;int sum=0;
-printf("Enter a number");
-scanf("%d",&n);
+// int n;int sum=0;
+// printf("Enter a number");
+// scanf("%d",&n);
 // for( int i=1;i<=n;i++){
 //   sum=sum+i;}
 //   printf("%d",sum);
@@ -102,15 +102,20 @@ scanf("%d",&n);
 // for(int i=1;i<=10;i++){
 //   printf("%d\n",n*i);
 // }
-int num;
-do{
-  printf("Enter a number ");
-  scanf("%d",&num);
- if(num%2!=0){
-  break;
- }
-}while(1);
-
+// int num;
+// do{
+//   printf("Enter a number ");
+//   scanf("%d",&num);
+//  if(num%2!=0){
+//   break;
+//  }
+// }while(1);
+for(int i=1;i<=10;i++){
+  if(i==6){
+    continue;
+    printf("%d\n",i);
+  }
+}
   
 
 
