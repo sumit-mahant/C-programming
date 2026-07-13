@@ -1,6 +1,6 @@
 #include <stdio.h> 
 int main(){
-#include<math.h>
+// #include<math.h>
 // printf("sumit\n");
 
 // int number=25;
@@ -125,9 +125,22 @@ int main(){
 //   }printf("%d\n",num);
 //  } 
 //Factorial of a number!!!
-
-
-
+// int n;
+// printf("Enter a number->");
+// scanf("%d",&n);
+// int facto=1;
+// for(int i=1;i<=n;i++){
+//   facto=facto * i;
+// }
+// printf("%d\n",facto);
+// int n;
+// printf("Enter a number-:");
+// scanf("%d",&n);
+// int fact= 1;
+// for(int i=1;i<=n;i++){
+//   fact=fact * i;
+// }
+// printf("%d",fact);
 
 
 
