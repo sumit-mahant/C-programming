@@ -90,10 +90,14 @@ while(p<=10);
 int n;int sum=0;
 printf("Enter a number");
 scanf("%d",&n);
-for( int i=1;i<=n;i++){
-  sum=sum+i;}
-  printf("%d",sum);
-  
+// for( int i=1;i<=n;i++){
+//   sum=sum+i;}
+//   printf("%d",sum);
+
+for(int i=n;i>=1;i--){
+  sum=sum+i;
+  printf("%d\n",i);
+}printf("sum of these number %d",sum);
   
 
 
