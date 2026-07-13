@@ -119,11 +119,13 @@ int main(){
 // for(int p=5;p<=50;p=p+2){
 //   printf("%d ",p);
 // }
- for(int num=5;num<=50;num++){
-  if(num%2==0){
-    continue;
-  }printf("%d",num);
- } 
+//  for(int num=5;num<=50;num++){
+//   if(num%2==0){
+//     continue;
+//   }printf("%d\n",num);
+//  } 
+//Factorial of a number!!!
+
 
 
 
