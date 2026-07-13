@@ -99,10 +99,17 @@ scanf("%d",&n);
 //   printf("%d\n",i);
 // }printf("sum of these number %d",sum);
 //table of the number !
-for(int i=1;i<=10;i++){
-  printf("%d\n",n*i);
-}
-
+// for(int i=1;i<=10;i++){
+//   printf("%d\n",n*i);
+// }
+int num;
+do{
+  printf("Enter a number ");
+  scanf("%d",&num);
+ if(num%2!=0){
+  break;
+ }
+}while(1);
 
   
 
