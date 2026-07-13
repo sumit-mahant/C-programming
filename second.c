@@ -12,5 +12,5 @@ printhello();
 
 }
 void printhello(){
-    printf("hello world!\n");
+    printf("I am sumit bro\nI am the best \nI win\nI do't lose\n");
 }
