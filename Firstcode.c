@@ -87,6 +87,9 @@ do{
   p++;
 }
 while(p<=10);
+int n;int sum;
+printf("Enter a number");
+scanf("%d",&n);
 
 
 
