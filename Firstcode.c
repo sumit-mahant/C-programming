@@ -72,21 +72,21 @@ int main(){
 //   printf("This is not a charcter");
 // }
 
-for(int i=2;i<=5;i++){
-  printf("hello world\n");
-}
-for(char ch='a';ch<='z';ch++){
-  printf("%c ",ch);
-}int s=1;
-while(s<=6){
-  printf("%d\n",s);
-  s++;
-}int p=1;
-do{
-  printf("%d\n",p);
-  p++;
-}
-while(p<=10);
+// for(int i=2;i<=5;i++){
+//   printf("hello world\n");
+// }
+// for(char ch='a';ch<='z';ch++){
+//   printf("%c ",ch);
+// }int s=1;
+// while(s<=6){
+//   printf("%d\n",s);
+//   s++;
+// }int p=1;
+// do{
+//   printf("%d\n",p);
+//   p++;
+// }
+// while(p<=10);
 int n;int sum=0;
 printf("Enter a number");
 scanf("%d",&n);
@@ -94,10 +94,12 @@ scanf("%d",&n);
 //   sum=sum+i;}
 //   printf("%d",sum);
 
-for(int i=n;i>=1;i--){
-  sum=sum+i;
-  printf("%d\n",i);
-}printf("sum of these number %d",sum);
+// for(int i=n;i>=1;i--){
+//   sum=sum+i;
+//   printf("%d\n",i);
+// }printf("sum of these number %d",sum);
+
+
   
 
 
