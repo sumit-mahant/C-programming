@@ -215,3 +215,13 @@ int fibonacci(int n){
     printf("fibonacci seq->%d\n",fibonacci);
     return fibonacci;
 }
+//fibonacci sequence from loop control!!!!!!!
+int main(){
+    int n;
+printf("Enter the number-->");
+scanf("%d",&n);
+for
+
+
+
+}
