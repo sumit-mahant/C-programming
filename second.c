@@ -175,10 +175,17 @@
 //     float fara=   9.0/8.0*celsius  + 32;
 //    return fara;
 // }
+int  calculateper(int science ,int maths,int sanskrit);
 float convertTemp(float celcius);
 int main(){
+  int science=90;
+  int maths=60;
+  int sanskrit=80;
+
+
     float fara=convertTemp(37);
-    printf("fara is-%f",fara);
+    printf("fara is-%f\n",fara);
+    printf("percent is->%d",calculateper(science,maths,sanskrit));
 
 
     return 0;
@@ -186,4 +193,7 @@ int main(){
 float convertTemp(float celcius){
     float fara= celcius * (9.0/5.0) + 32;
     return fara;
+}
+int calculateper(int science ,int maths,int sanskrit){
+    return ((science + maths + sanskrit)/3) ;
 }
