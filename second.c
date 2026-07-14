@@ -20,14 +20,20 @@
 // }void printgoodbye(){
 //     printf("goodbye baby\n");
 // }
-
+// int main(){
+//     char country;
+//     printf("Enter 'I' If you are from India OR 'France'\n");
+//     scanf("%c",&country);
+// }
 void namaste();
 void monjour();
-
-
-int main (){
-
+int main(){
+    char country;
+    printf("Enter 'I' If you are from India OR 'France'\n");
+    scanf("%c",&country);
 }
+
+
 void namaste(){
     printf("namste indian boy!\n");
 }
