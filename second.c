@@ -94,10 +94,10 @@
 //     value=value+(value*0.18);
 //     printf("final price is->%f",value);
 // }
-int main(){
-    // int n=4;
-    printf("%f",pow(3,2));
-}
+// int main(){
+//     // int n=4;
+//     printf("%f",pow(3,2));
+// }
 
 
 
