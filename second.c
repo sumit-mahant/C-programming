@@ -177,6 +177,7 @@
 // }
 int  calculateper(int science ,int maths,int sanskrit);
 float convertTemp(float celcius);
+int fibonacci(int n);
 int main(){
   int science=90;
   int maths=60;
@@ -196,4 +197,16 @@ float convertTemp(float celcius){
 }
 int calculateper(int science ,int maths,int sanskrit){
     return ((science + maths + sanskrit)/3) ;
+}
+int fibonacci(int n){
+    if(fibonacci==0){
+        return 0;
+    // }else if(fibonacci==1){
+    //     return 
+    // }
+
+    int fibnm1=fibonacci+(n-1);
+    int fibnm2=fibonacci+(n-2);
+    int fibonacci=fibnm1+fibnm2;
+    return fibonacci;
 }
