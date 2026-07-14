@@ -124,18 +124,32 @@
 //     printf("hello world\n");
 //     printHW(count-1);
 // }
-int sum(int n);
+// int sum(int n);
+// int main(){
+//    printf("the sum is->%d",sum(5));
+// }
+// int sum(int n){
+//     if(n==1){
+//         return 1;
+
+//     }
+//     int sumnm1=sum(n-1);
+//     int sumN=sumnm1+n;
+//     return sumN;
+// }
+//👍👍👍👍👍👍very important😊
+int fact(int n);
 int main(){
-   printf("the sum is->%d",sum(5));
+   printf("the factorial of the n is->%d",fact(5));
+
+
 }
-int sum(int n){
+int fact(int n){
     if(n==1){
         return 1;
-
     }
-    int sumnm1=sum(n-1);
-    int sumN=sumnm1+n;
-    return sumN;
+    int factnm1=fact(n-1);
+    int factn=factnm1*n;
+    return factn;
 }
-
 
