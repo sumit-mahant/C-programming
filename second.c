@@ -31,11 +31,15 @@ int main(){
     char country;
     printf("Enter 'I' If you are from India OR 'France'\n");
     scanf("%c",&country);
-    if(country=='I'&&'i'){
+    if(country=='I'||country=='i'){
         namaste();
 
-    }else{
+    }else if(country=='F'||country=='f'){
         monjour();
+    }
+    
+    else{
+        printf("I do not know where are your form ");
     }
 }
 
