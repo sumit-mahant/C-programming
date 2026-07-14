@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+// #include <math.h>
 // void printhello();
 // void printgoodbye();
 // int main()
@@ -153,14 +153,37 @@
 //     return factn;
 // }
 //function for convert cels.. to fren...
-float converttem(float celsius);
+// float converttem(float celsius);
+// int main(){
+//      float fara=converttem(37);
+//      printf("far-:%f",fara);
+
+//     return 0;
+// }
+// float converttem(float celsius){
+//     float fara=   9.0/8.0*celsius  + 32;
+//    return fara;
+// }
+// float converttem(float celsius);
+// int main(){
+//      float fara=converttem(37);
+//      printf("fara-%f",fara);
+
+//     return 0;
+// }
+// float converttem(float celsius){
+//     float fara=   9.0/8.0*celsius  + 32;
+//    return fara;
+// }
+float convertTemp(float celcius);
 int main(){
-     float fara=converttem(37);
-     printf("far-:%f",fara);
+    float fara=convertTemp(37);
+    printf("fara is-%f",fara);
+
 
     return 0;
 }
-float converttem(float celsius){
-    float fara=  ( 9.0/8.0)*celsius  + 32;
-   return fara;
+float convertTemp(float celcius){
+    float fara= celcius * (9.0/5.0) + 32;
+    return fara;
 }
