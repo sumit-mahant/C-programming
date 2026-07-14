@@ -50,18 +50,18 @@
 // void monjour(){
 //     printf("monjour franch man!\n");
 // }
-int sum(int a,int b);
-int main(){
-    int a,b;
-    printf("Enter the first number->");
-    scanf("%d",&a);
-    printf("Enter the second number->");
-    scanf("%d",&b);
-    int s=sum(a , b);
-    printf("the sum is ->%d",s);
-    return 0;
+// int sum(int a,int b);
+// int main(){
+//     int a,b;
+//     printf("Enter the first number->");
+//     scanf("%d",&a);
+//     printf("Enter the second number->");
+//     scanf("%d",&b);
+//     int s=sum(a , b);
+//     printf("the sum is ->%d",s);
+//     return 0;
 
-}
-int sum(int a,int b){
-    return a + b ;
-}
+// }
+// int sum(int a,int b){
+//     return a + b ;
+// }
