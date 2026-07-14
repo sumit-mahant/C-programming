@@ -152,4 +152,15 @@
 //     int factn=factnm1*n;
 //     return factn;
 // }
+//function for convert cels.. to fren...
+float converttem(float celsius);
+int main(){
+     float fara=converttem(0);
+     printf("far-:%f",fara);
 
+    return 0;
+}
+float converttem(float celsius){
+    float fara= celsius*(9/8)+32;
+   return fara;
+}
