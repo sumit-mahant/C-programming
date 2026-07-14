@@ -98,20 +98,30 @@
 //     // int n=4;
 //     printf("%f",pow(3,2));
 // }
-float squerarea(float side);
-float circlearea(float radius);
-float rectangle(float a,float b );
-int main(){
-    float a=5.0;float b=10.0;
-    printf("the area is ->%f",rectangle(a,b));
+// float squerarea(float side);
+// float circlearea(float radius);
+// float rectangle(float a,float b );
+// int main(){
+//     float a=5.0;float b=10.0;
+//     printf("the area is ->%f",rectangle(a,b));
  
 
 
-}
-float rectangle(float a,float b){
-    return a*b;
-}
+// }
+// float rectangle(float a,float b){
+//     return a*b;
+// }
+void printHW(int count);
+int main(){
+    printHW(10);
 
-
+}
+void printHW(int count){
+    if(count==0){
+        return;
+    }
+    printf("hello world\n");
+    printHW(count-1);
+}
 
 
