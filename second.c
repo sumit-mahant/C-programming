@@ -138,18 +138,18 @@
 //     return sumN;
 // }
 //👍👍👍👍👍👍very important😊
-int fact(int n);
-int main(){
-   printf("the factorial of the n is->%d",fact(6));
+// int fact(int n);
+// int main(){
+//    printf("the factorial of the n is->%d",fact(6));
 
 
-}
-int fact(int n){
-    if(n==1){
-        return 1;
-    }
-    int factnm1=fact(n-1);
-    int factn=factnm1*n;
-    return factn;
-}
+// }
+// int fact(int n){
+//     if(n==1){
+//         return 1;
+//     }
+//     int factnm1=fact(n-1);
+//     int factn=factnm1*n;
+//     return factn;
+// }
 
