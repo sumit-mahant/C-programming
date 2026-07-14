@@ -182,12 +182,13 @@ int main(){
   int science=90;
   int maths=60;
   int sanskrit=80;
-
+   
 
     float fara=convertTemp(37);
     printf("fara is-%f\n",fara);
     printf("percent is->%d",calculateper(science,maths,sanskrit));
-
+    printf(">>%d",fibonacci(6));
+    // fibonacci(6);
 
     return 0;
 }
@@ -199,14 +200,18 @@ int calculateper(int science ,int maths,int sanskrit){
     return ((science + maths + sanskrit)/3) ;
 }
 int fibonacci(int n){
-    if(fibonacci==0){
-        return 0;
-    // }else if(fibonacci==1){
-    //     return 
-    // }
+    
+        if(n==0){
+            return 0;
+        }
 
-    int fibnm1=fibonacci+(n-1);
-    int fibnm2=fibonacci+(n-2);
+         if(n==1){
+        return 1;
+    }
+
+    int fibnm1=fibonacci(n-1);
+    int fibnm2=fibonacci(n-2);
     int fibonacci=fibnm1+fibnm2;
+    printf("fibonacci seq->%d\n",fibonacci);
     return fibonacci;
 }
