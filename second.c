@@ -112,17 +112,18 @@
 //     return a*b;
 // }
 //recursion👌
-void printHW(int count);
-int main(){
-    printHW(10);
+// void printHW(int count);
+// int main(){
+//     printHW(10);
 
-}
-void printHW(int count){
-    if(count==0){
-        return;
-    }
-    printf("hello world\n");
-    printHW(count-1);
-}
+// }
+// void printHW(int count){
+//     if(count==0){
+//         return;
+//     }
+//     printf("hello world\n");
+//     printHW(count-1);
+// }
+int sum(int n);
 
 
