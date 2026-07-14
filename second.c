@@ -31,6 +31,12 @@ int main(){
     char country;
     printf("Enter 'I' If you are from India OR 'France'\n");
     scanf("%c",&country);
+    if(country=='I'&&'i'){
+        namaste();
+
+    }else{
+        monjour();
+    }
 }
 
 
