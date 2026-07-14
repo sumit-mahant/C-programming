@@ -125,5 +125,17 @@
 //     printHW(count-1);
 // }
 int sum(int n);
+int main(){
+   printf("the sum is->%d",sum(5));
+}
+int sum(int n){
+    if(n==1){
+        return 1;
+
+    }
+    int sumnm1=sum(n-1);
+    int sumN=sumnm1+n;
+    return sumN;
+}
 
 
