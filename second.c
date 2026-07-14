@@ -65,3 +65,17 @@
 // int sum(int a,int b){
 //     return a + b ;
 // }
+void printTable(int n);
+int main(){
+    printf("Enter a number->");
+    scan
+
+    return 0;
+}
+
+
+
+
+
+
+
