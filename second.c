@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 // void printhello();
 // void printgoodbye();
 // int main()
@@ -65,23 +66,38 @@
 // int sum(int a,int b){
 //     return a + b ;
 // }
-void printTable(int n);
+// void printTable(int n);
+// int main(){
+//     int n;
+//     printf("Enter a number->");
+//     scanf("%d",&n);
+//     printTable(n);//argument\actual parameter!
+
+//     return 0;
+// }
+// void printTable(int n){// formal parameter!
+//     for(int i=1;i<=10;i++){
+//         printf("%d\n",n*i);
+//     }
+// }
+// void printprice(float value);
+// int main(){
+//     float value;
+//     printf("Enter the price->");
+//     scanf("%f",&value);
+//     printprice(value);
+
+
+//     return 0;
+// }
+// void printprice(float value){
+//     value=value+(value*0.18);
+//     printf("final price is->%f",value);
+// }
 int main(){
-    int n;
-    printf("Enter a number->");
-    scanf("%d",&n);
-    printTable(n);
-
-    return 0;
+    // int n=4;
+    printf("%f",pow(3,2));
 }
-void printTable(int n){
-    for(int i=1;i<=10;i++){
-        printf("%d\n",n*i);
-    }
-}
-
-
-
 
 
 
