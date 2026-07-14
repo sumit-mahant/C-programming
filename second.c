@@ -140,7 +140,7 @@
 //👍👍👍👍👍👍very important😊
 int fact(int n);
 int main(){
-   printf("the factorial of the n is->%d",fact(5));
+   printf("the factorial of the n is->%d",fact(6));
 
 
 }
