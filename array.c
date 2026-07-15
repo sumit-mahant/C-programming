@@ -293,6 +293,11 @@ int main(){
 char ch;
 printf("Enter a character->");
 scanf("%c",&ch);
+if(ch>='a'&&ch<='z'||ch>='A'&&ch<='z'){
+    printf("this is not a digit.its ch...");
+}else{
+    printf("yes this is a digit");
+}
 
 
 
