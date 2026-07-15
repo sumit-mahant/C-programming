@@ -298,14 +298,16 @@ int main(){
 // }else{
 //     printf("yes this is a digit");
 // }
-int a=5,b=2;
-if(a<b){
-    printf("smallest number is->%d",a);
-}else if(a>b){
-    printf("smallest number is->%d",b);
-}else{
-    printf("both number is equal");
-}
+// int a=5,b=2;
+// if(a<b){
+//     printf("smallest number is->%d",a);
+// }else if(a>b){
+//     printf("smallest number is->%d",b);
+// }else{
+//     printf("both number is equal");
+// }
+// program for therr digit if that is ARMSTRONG NUMBER !!!!!
+
 
 
 
