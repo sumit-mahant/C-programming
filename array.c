@@ -278,12 +278,16 @@ int main(){
 // printf("%d\n",15<16 && 1>=0);
 // printf("%d\n",5<=5||2>3);
 // printf("%d\n",3!=3);
-int a,b;
-printf("Enter 'a'->");
-scanf("%d\n",&a);
-printf("Enter 'b'->");
-scanf("%d\n",&b);
-printf("parameter of rectangle is->%d",a*b);
+// int a,b;
+// printf("Enter 'a'->");
+// scanf("%d\n",&a);
+// printf("Enter 'b'->");
+// scanf("%d\n",&b);
+// printf("parameter of rectangle is->%d",a*b);
+// int num;
+// printf("Enter a number->");
+// scanf("%d",&num);
+// printf("cube of the number is->%d",num*num*num);
 
 }
 
