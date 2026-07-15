@@ -306,7 +306,39 @@ int main(){
 // }else{
 //     printf("both number is equal");
 // }
-// program for therr digit if that is ARMSTRONG NUMBER !!!!!
+// program for three digit if that is ARMSTRONG NUMBER !!!!!
+// int num,original,digit,sum=0;
+// printf("Enter a three digit number->");
+// scanf("%d",&num);
+// original=num;
+// while(num>0){
+//     digit=num % 10;
+//     sum= sum + (digit *digit * digit);
+//     num=num / 10;
+// }if(sum==original){
+//     printf("this is a armstrong number");
+// }else{
+//     printf("this is not an armstrong number");
+// }
+int num, original, digit, sum = 0;
+
+    printf("Enter a 3-digit number: ");
+    scanf("%d", &num);
+
+    original = num;
+
+    while (num > 0)
+    {
+        digit = num % 10;
+        sum = sum + (digit * digit * digit);
+        num = num / 10;
+    }
+
+    if (sum == original)
+        printf("Armstrong Number");
+    else
+        printf("Not an Armstrong Number");
+
 
 
 
