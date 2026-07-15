@@ -288,6 +288,12 @@ int main(){
 // printf("Enter a number->");
 // scanf("%d",&num);
 // printf("cube of the number is->%d",num*num*num);
+// float a=5.0,b=4.0,c=6.0;
+// printf("%f",(a+b+c)/3);
+
+
+
+
 
 }
 
