@@ -290,15 +290,22 @@ int main(){
 // printf("cube of the number is->%d",num*num*num);
 // float a=5.0,b=4.0,c=6.0;
 // printf("%f",(a+b+c)/3);
-char ch;
-printf("Enter a character->");
-scanf("%c",&ch);
-if(ch>='a'&&ch<='z'||ch>='A'&&ch<='z'){
-    printf("this is not a digit.its ch...");
+// char ch;
+// printf("Enter a character->");
+// scanf("%c",&ch);
+// if(ch>='a'&&ch<='z'||ch>='A'&&ch<='z'){
+//     printf("this is not a digit.its ch...");
+// }else{
+//     printf("yes this is a digit");
+// }
+int a=5,b=2;
+if(a<b){
+    printf("smallest number is->%d",a);
+}else if(a>b){
+    printf("smallest number is->%d",b);
 }else{
-    printf("yes this is a digit");
+    printf("both number is equal");
 }
-
 
 
 
