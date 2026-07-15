@@ -267,7 +267,24 @@ int main(){
 
 // void num(){
 //     a%2==0?printf("Even"):printf("Odd");
-int a=5;
+// int a=22;
+// int b=a;
+// int c=b+2;
+// printf("%d",c);
+// int a=20,b=30,c=24;
+// printf("%d\n",a);
+// printf("%d\n",b);
+// printf("output is%d ", 5+2/2*3);
+// printf("%d\n",15<16 && 1>=0);
+// printf("%d\n",5<=5||2>3);
+// printf("%d\n",3!=3);
+int a,b;
+printf("Enter 'a'->");
+scanf("%d\n",&a);
+printf("Enter 'b'->");
+scanf("%d\n",&b);
+printf("parameter of rectangle is->%d",a*b);
+
 }
 
 
