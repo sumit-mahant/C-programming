@@ -290,6 +290,10 @@ int main(){
 // printf("cube of the number is->%d",num*num*num);
 // float a=5.0,b=4.0,c=6.0;
 // printf("%f",(a+b+c)/3);
+char ch;
+printf("Enter a character->");
+scanf("%c",&ch);
+
 
 
 
