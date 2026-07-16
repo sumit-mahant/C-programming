@@ -224,35 +224,36 @@
     
 // }
 int main(){
-float pi=3.102314;
-printf("%.2f\n",pi);
-printf("%.4f\n",pi);
-int a=10;
-int b=20;
-int temp;
+// float pi=3.102314;
+// printf("%.2f\n",pi);
+// printf("%.4f\n",pi);
+// int a=10;
+// int b=20;
+// int temp;
 // printf("befor swap-->%d,%d",a,b);
 // temp=a;
 // a=b;
 // b=temp;
 
-printf("after swap-->%d,\n",a,b);
-a=a+10;
-b=a-10;
-printf("after swap-->%d,%d\n",a,b);
-int num;
-int sum=0;
+// printf("after swap-->%d,\n",a,b);
+// a=a+10;
+// b=a-10;
+// printf("after swap-->%d,%d\n",a,b);
+// int num;
+// int sum=0;
 
-while (num>0)
-{
-  printf("Enter a number\n");
-  scanf("%d",&num);
-  sum=sum + num; 
-  if(num==0){
-    printf("the total sum is -->%d\n",sum);
-     printf("thankyou bro I am happy ");
-  }
+// while (num>0)
+// {
+//   printf("Enter a number\n");
+//   scanf("%d",&num);
+//   sum=sum + num; 
+//   if(num==0){
+//     printf("the total sum is -->%d\n",sum);
+//      printf("thankyou bro I am happy ");
+//   }
 
-       }}
+//        }
+}
 
 
 
