@@ -256,18 +256,32 @@ int main(){
 
 //nested loop loaded>>>>>>>>>>
 
-for(int i=1;i<=4;i++){
-    printf("#");
-for(int j=1;j<=5;j++){
-    printf("*");
+// for(int i=1;i<=4;i++){
+//     printf("#");
+// for(int j=1;j<=5;j++){
+//     printf("*");
+// }
+// printf("\n");
+
+// }
+
+//prime numbers>>>>>
+int num;
+printf("Enter a number for chacking prime number-->");
+scanf("%d",&num);
+if(num<=1){
+    printf("not prime\n");
 }
-printf("\n");
-
+else{
+for(int i=2;i<num;i++){
+    if(num % i==0){
+        printf("Not prime\n");
+        break;
+    }
 }
 }
-
-
-
+return 0;
+}
 
 
 
