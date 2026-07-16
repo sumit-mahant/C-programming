@@ -265,7 +265,7 @@ int main(){
 
 // }
 
-//prime numbers>>>>>
+//prime numbers>>>>>👌👌👌👌👌👌
 int num;
 printf("Enter a number for chacking prime number-->");
 scanf("%d",&num);
