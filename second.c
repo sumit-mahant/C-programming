@@ -272,10 +272,16 @@ scanf("%d",&num);
 if(num<=1){
     printf("not prime\n");
 }
-else{
+
+{
 for(int i=2;i<num;i++){
-    if(num % i==0){
-        printf("Not prime\n");
+
+    if(num % i!=0){
+        printf(" prime number\n");
+        break;
+    }
+    else{
+        printf("Note prime\n");
         break;
     }
 }
