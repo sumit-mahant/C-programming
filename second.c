@@ -239,6 +239,19 @@ printf("after swap-->%d,\n",a,b);
 a=a+10;
 b=a-10;
 printf("after swap-->%d,%d",a,b);
+int num;
+int sum=0;
+
+while (num>0)
+{
+  printf("Enter a number\n");
+  scanf("%d",&num);
+  sum=sum + num; 
+  if(num==0){
+    printf("the total sum is -->%d",sum);
+  }
+}
+
 
 
 }
