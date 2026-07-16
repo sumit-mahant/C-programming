@@ -226,7 +226,20 @@
 int main(){
 float pi=3.102314;
 printf("%.2f\n",pi);
-printf("%.4f",pi);
+printf("%.4f\n",pi);
+int a=10;
+int b=20;
+int temp;
+// printf("befor swap-->%d,%d",a,b);
+// temp=a;
+// a=b;
+// b=temp;
+
+printf("after swap-->%d,\n",a,b);
+a=a+10;
+b=a-10;
+printf("after swap-->%d,%d",a,b);
+
 
 }
 
