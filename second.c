@@ -253,10 +253,18 @@ int main(){
 //   }
 
 //        }
+
+//nested loop loaded>>>>>>>>>>
+char ch='*';
+for(int i=1;i<=4;i++){
+    printf("%c\n",ch);
+for(char j=1;j<=7;j++){
+    printf("%c\n",ch);
 }
 
 
-
+}
+}
 
 
 
