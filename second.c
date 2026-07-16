@@ -223,7 +223,7 @@
 // for(int i=0;i<=n;i++){
     
 // }
-int main(){
+// int main(){
 // float pi=3.102314;
 // printf("%.2f\n",pi);
 // printf("%.4f\n",pi);
@@ -287,18 +287,29 @@ int main(){
 // }
 // }
 //print trangle with the help of satars bro⭐⭐⭐⭐
-int row=5;
-for(int i=5;i>=1;i--){
-    printf(" *");
-for(int j=5;j>=1;j--){
-    printf(" *");
-}
-printf("\n");
-}
+// int row=5;
+// for(int i=5;i>=1;i--){
+//     printf(" *");
+// for(int j=5;j>=1;j--){
+//     printf(" *");
+// }
+// printf("\n");
+// }
 
 
-return 0;
-}
+// return 0;
+// }
+void printHW();
+int main(){
+printHW();
+printHW();
+printHW();
+printHW();
 
+
+}
+void printHW(){
+    printf("sumit is the best\nhe always wins\n he is best in everything\n he is also Articulate");
+}
 
 
