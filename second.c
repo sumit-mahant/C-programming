@@ -266,26 +266,26 @@ int main(){
 // }
 
 //prime numbers>>>>>👌👌👌👌👌👌
-int num;
-printf("Enter a number for chacking prime number-->");
-scanf("%d",&num);
-if(num<=1){
-    printf("not prime\n");
-}
+// int num;
+// printf("Enter a number for chacking prime number-->");
+// scanf("%d",&num);
+// if(num<=1){
+//     printf("not prime\n");
+// }
 
-{
-for(int i=2;i<num;i++){
+// {
+// for(int i=2;i<num;i++){
 
-    if(num % i!=0){
-        printf(" prime number\n");
-        break;
-    }
-    else{
-        printf("Note prime\n");
-        break;
-    }
-}
-}
+//     if(num % i!=0){
+//         printf(" prime number\n");
+//         break;
+//     }
+//     else{
+//         printf("Note prime\n");
+//         break;
+//     }
+// }
+// }
 return 0;
 }
 
