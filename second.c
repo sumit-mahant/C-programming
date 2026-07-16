@@ -286,8 +286,15 @@ int main(){
 //     }
 // }
 // }
-
-
+//print trangle with the help of satars bro⭐⭐⭐⭐
+int row=5;
+for(int i=5;i>=1;i--){
+    printf(" *");
+for(int j=5;j>=1;j--){
+    printf(" *");
+}
+printf("\n");
+}
 
 
 return 0;
