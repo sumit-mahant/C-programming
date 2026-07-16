@@ -223,7 +223,12 @@
 // for(int i=0;i<=n;i++){
     
 // }
+int main(){
+float pi=3.102314;
+printf("%.2f\n",pi);
+printf("%.4f",pi);
 
+}
 
 
 
