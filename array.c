@@ -338,6 +338,7 @@ int main(){
 //         printf("Armstrong Number");
 //     else
 //         printf("Not an Armstrong Number");
+//to print a pattern!!
 
 
 
