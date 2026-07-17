@@ -439,6 +439,9 @@ int square(int n){
     printf("square is >>%d\n",n);
 
 }
+void _square(int* n){
+    
+}
 
 int main(){
     int number=5;
