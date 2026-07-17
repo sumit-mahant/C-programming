@@ -364,8 +364,8 @@
 // }
 //table of N..>>>>
 void printtable(int n){
-    for(int i=1;i<=10;i++){
-    printf("%d\n",i*n);
+    for(int i=1;i<=20;i++){
+    printf("%d   ",i*n);
     }
 }
 int main(){
