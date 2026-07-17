@@ -295,14 +295,10 @@
 // }
 // printf("\n");
 // }
-
-
 // return 0;
 // }
 // void printHW();
 // void printstar();
-
-
 // int main(){
 // printHW();
 // printHW();
@@ -440,19 +436,16 @@
 
 // }
 // CALL BY REFRENCE!!!!!😒😒😒
-int  _square(int* n){
-    *n=(*n)*(*n);
-    printf("_square is >>%d\n",*n);
-}
+// int  _square(int* n){
+//     *n=(*n)*(*n);
+//     printf("_square is >>%d\n",*n);
+// }
 
-int main(){
-    int number=5;
-    // square(&number);
-    // printf("n=%d\n",number);
-    _square(& number);
-    printf("number is>>%d",number);
-}
-
-
-
+// int main(){
+//     int number=5;
+//     // square(&number);
+//     // printf("n=%d\n",number);
+//     _square(& number);
+//     printf("number is>>%d",number);
+// }
 // }
