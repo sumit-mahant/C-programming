@@ -363,16 +363,32 @@
 //     // sum(a,b);
 // }
 //table of N..>>>>
-void printtable(int n){
-    for(int i=1;i<=20;i++){
-    printf("%d   ",i*n);
-    }
-}
+// void printtable(int n){
+//     for(int i=1;i<=20;i++){
+//     printf("%d   ",i*n);
+//     }
+// }
+// int main(){
+//     int n;
+//     printf("Enter a number->>");
+//     scanf("%d",&n);
+//     printtable( n);
+// }
+void printhw(int count);
+// {
+//     if(count== 0){
+//         return;}
+//         printf("Hello world\n");
+//          count = count-1;
+    
+// }
 int main(){
-    int n;
-    printf("Enter a number->>");
-    scanf("%d",&n);
-    printtable( n);
+    printhw(5);
 }
-
-
+void printhw(int count){
+    if(count==0){
+        return;
+    }
+    printf("Hello world\n");
+    printhw(count-1);
+}
