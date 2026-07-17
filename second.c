@@ -403,3 +403,10 @@
 // int main(){
 //     printf("factorial  is -->%d",fact(5));
 // }
+int main(){
+int age=20;
+int *ptr=&age;
+int _age= *ptr;
+printf("%d",_age);
+
+}
