@@ -299,28 +299,28 @@
 
 // return 0;
 // }
-void printHW();
-void printstar();
+// void printHW();
+// void printstar();
 
 
-int main(){
-printHW();
-printHW();
-printHW();
-printHW();
-printstar();
-printstar();
-printstar();
-printstar();
-printstar();
-}
-void printHW(){
-    printf("sumit is the best\nhe always wins\n he is best in everything\n he is also Articulate");
-}
+// int main(){
+// printHW();
+// printHW();
+// printHW();
+// printHW();
+// printstar();
+// printstar();
+// printstar();
+// printstar();
+// printstar();
+// }
+// void printHW(){
+//     printf("sumit is the best\nhe always wins\n he is best in everything\n he is also Articulate");
+// }
 
-void printstar(){
-    printf("********\n");
-}
+// void printstar(){
+//     printf("********\n");
+// }
 
    
 
