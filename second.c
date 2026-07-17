@@ -407,11 +407,17 @@ int main(){
 int age=20;
 int *ptr=&age;
 int _age= *ptr;
+// Format spasifier for ADDRESS⭐⭐⭐
 printf("%d\n",_age);
 printf("%p\n",&age);
 printf("%u\n",&age);
 printf("%u\n",ptr);
 printf("%u\n",&ptr);
+//frint of value👍👍👍👍
+printf("%d\n",age);
+printf("%d\n",*ptr);
+printf("%d\n",*(&age));
+
 
 
 
