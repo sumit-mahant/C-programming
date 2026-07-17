@@ -333,7 +333,7 @@
 //     printgb();
 
 // }
-void namste(){
+void namaste(){
     printf("numste Indian boy ");
 }
 void monjour(){
@@ -343,7 +343,11 @@ int main(){
     char country ;
     printf("for India>>'I',for France>>'F'->");
     scanf("%c",&country);
-    
+    if(country=='i'||country=='I'){
+        namaste();
+    }else{
+        monjour();
+    }
 }
    
 
