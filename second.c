@@ -333,8 +333,18 @@
 //     printgb();
 
 // }
-
-
+void namste(){
+    printf("numste Indian boy ");
+}
+void monjour(){
+    printf("monjour French boy");
+}
+int main(){
+    char country ;
+    printf("for India>>'I',for France>>'F'->");
+    scanf("%c",&country);
+    
+}
    
 
 
