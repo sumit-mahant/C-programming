@@ -349,19 +349,30 @@
 //         monjour();
 //     }
 // }
-   int sum(int a ,int b){
-    int  sum=a+b;
-    return sum;
-   }
-int main(){
-    int a,b;
-    printf("Enter first num>>>");
-    scanf("%d",&a);
-    printf("Enter the second number>>>>");
-    scanf("%d",&b);
-    printf("%d",sum(a,b));
-    // sum(a,b);
-}
+//    int sum(int a ,int b){
+//     int  sum=a+b;
+//     return sum;
+//    }
+// int main(){
+//     int a,b;
+//     printf("Enter first num>>>");
+//     scanf("%d",&a);
+//     printf("Enter the second number>>>>");
+//     scanf("%d",&b);
+//     printf("%d",sum(a,b));
+//     // sum(a,b);
+// }
 //table of N..>>>>
+void printtable(int n){
+    for(int i=1;i<=10;i++){
+    printf("%d\n",i*n);
+    }
+}
+int main(){
+    int n;
+    printf("Enter a number->>");
+    scanf("%d",&n);
+    printtable( n);
+}
 
 
