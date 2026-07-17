@@ -434,19 +434,22 @@
 // float **pptr=&ptr;
 // printf("%.2f",**pptr);
 //CALL BY VALUE 😁😁😁😁😁
-int square(int n){
-    n=n*n;
-    printf("square is >>%d\n",n);
+// int square(int n){
+//     n=n*n;
+//     printf("square is >>%d\n",n);
 
-}
-void _square(int* n){
-    
+// }
+int  _square(int* n){
+    *n=(*n)*(*n);
+    printf("_square is >>%d\n",*n);
 }
 
 int main(){
     int number=5;
-    square(number);
-    printf("n=%d\n",number);
+    // square(&number);
+    // printf("n=%d\n",number);
+    _square(& number);
+    printf("number is>>%d",number);
 }
 
 
