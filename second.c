@@ -429,10 +429,11 @@ int main(){
 // (*ptr)++;
 // printf("valu of x= %d\n",x);
 // printf("valu of ptr=%d\n",*ptr);
-float price=98.24;
-float *ptr=&price;
-float **pptr=&ptr;
-printf("%.2f",**pptr);
+// float price=98.24;
+// float *ptr=&price;
+// float **pptr=&ptr;
+// printf("%.2f",**pptr);
+
 
 
 
