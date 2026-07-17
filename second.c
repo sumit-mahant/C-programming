@@ -374,7 +374,14 @@
 //     scanf("%d",&n);
 //     printtable( n);
 // }
-void printhw(int count);
+int sum(int n){
+    if(n==1){
+        return 1;
+    }
+    int sum1mn=sum(n-1);
+     int sumN=sum1mn+n;
+     return sumN;
+}
 // {
 //     if(count== 0){
 //         return;}
@@ -383,12 +390,6 @@ void printhw(int count);
     
 // }
 int main(){
-    printhw(5);
+   printf("the sumvis--> %d",sum(10));
 }
-void printhw(int count){
-    if(count==0){
-        return;
-    }
-    printf("Hello world\n");
-    printhw(count-1);
-}
+
