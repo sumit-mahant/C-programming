@@ -374,22 +374,32 @@
 //     scanf("%d",&n);
 //     printtable( n);
 // }
-int sum(int n){
-    if(n==1){
-        return 1;
-    }
-    int sum1mn=sum(n-1);
-     int sumN=sum1mn+n;
-     return sumN;
-}
-// {
-//     if(count== 0){
-//         return;}
-//         printf("Hello world\n");
-//          count = count-1;
-    
+// int sum(int n){
+//     if(n==1){
+//         return 1;
+//     }
+//     int sum1mn=sum(n-1);
+//      int sumN=sum1mn+n;
+//      return sumN;
 // }
-int main(){
-   printf("the sumvis--> %d",sum(10));
-}
-
+// // {
+// //     if(count== 0){
+// //         return;}
+// //         printf("Hello world\n");
+// //          count = count-1;
+    
+// // }
+// int main(){
+//    printf("the sumvis--> %d",sum(10));
+// }
+// int fact(int n){
+//     if(n==1){
+//   return 1;
+//     }
+//     int factnm1=fact(n-1);
+//     int factn=factnm1*n;
+//     return factn;
+// }
+// int main(){
+//     printf("factorial  is -->%d",fact(5));
+// }
