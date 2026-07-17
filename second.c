@@ -439,6 +439,7 @@
 //     printf("square is >>%d\n",n);
 
 // }
+// CALL BY REFRENCE!!!!!😒😒😒
 int  _square(int* n){
     *n=(*n)*(*n);
     printf("_square is >>%d\n",*n);
