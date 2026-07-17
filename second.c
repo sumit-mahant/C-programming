@@ -333,22 +333,35 @@
 //     printgb();
 
 // }
-void namaste(){
-    printf("numste Indian boy ");
-}
-void monjour(){
-    printf("monjour French boy");
-}
+// void namaste(){
+//     printf("numste Indian boy ");
+// }
+// void monjour(){
+//     printf("monjour French boy");
+// }
+// int main(){
+//     char country ;
+//     printf("for India>>'I',for France>>'F'->");
+//     scanf("%c",&country);
+//     if(country=='i'||country=='I'){
+//         namaste();
+//     }else{
+//         monjour();
+//     }
+// }
+   int sum(int a ,int b){
+    int  sum=a+b;
+    return sum;
+   }
 int main(){
-    char country ;
-    printf("for India>>'I',for France>>'F'->");
-    scanf("%c",&country);
-    if(country=='i'||country=='I'){
-        namaste();
-    }else{
-        monjour();
-    }
+    int a,b;
+    printf("Enter first num>>>");
+    scanf("%d",&a);
+    printf("Enter the second number>>>>");
+    scanf("%d",&b);
+    printf("%d",sum(a,b));
+    // sum(a,b);
 }
-   
+//table of N..>>>>
 
 
