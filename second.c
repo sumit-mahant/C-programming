@@ -407,6 +407,12 @@ int main(){
 int age=20;
 int *ptr=&age;
 int _age= *ptr;
-printf("%d",_age);
+printf("%d\n",_age);
+printf("%p\n",&age);
+printf("%u\n",&age);
+printf("%u\n",ptr);
+printf("%u\n",&ptr);
+
+
 
 }
