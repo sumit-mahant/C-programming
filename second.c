@@ -321,7 +321,13 @@
 // void printstar(){
 //     printf("********\n");
 // }
-
+//FUNCTION👍👍👍👍>.>>>>
+void nameprint(){
+    printf("SUMIT \nMAHANT");
+}
+int main(){
+    nameprint();
+}
    
 
    
