@@ -322,13 +322,18 @@
 //     printf("********\n");
 // }
 //FUNCTION👍👍👍👍>.>>>>
-void nameprint(){
-    printf("SUMIT \nMAHANT");
-}
-int main(){
-    nameprint();
-}
-   
+// void nameprint(){
+//     printf("SUMIT \nMAHANT\n");
+// }
+// void printgb(){
+//     printf("goodbye Boss");
+// }
+// int main(){
+//     nameprint();
+//     printgb();
+
+// }
+
 
    
 
