@@ -404,19 +404,36 @@
 //     printf("factorial  is -->%d",fact(5));
 // }
 int main(){
-int age=20;
-int *ptr=&age;
-int _age= *ptr;
-// Format spasifier for ADDRESS⭐⭐⭐
-printf("%d\n",_age);
-printf("%p\n",&age);
-printf("%u\n",&age);
-printf("%u\n",ptr);
-printf("%u\n",&ptr);
-//frint of value👍👍👍👍
-printf("%d\n",age);
-printf("%d\n",*ptr);
-printf("%d\n",*(&age));
+// int age=20;
+// int *ptr=&age;
+// int _age= *ptr;
+// // Format spasifier for ADDRESS⭐⭐⭐
+// printf("%d\n",_age);
+// printf("%p\n",&age);
+// printf("%u\n",&age);
+// printf("%u\n",ptr);
+// printf("%u\n",&ptr);
+// //frint of value👍👍👍👍
+// printf("%d\n",age);
+// printf("%d\n",*ptr);
+// printf("%d\n",*(&age));
+// int *ptr;
+// int x;
+// ptr=&x;
+// *ptr=0;
+// printf("valu of x= %d\n",x);
+// printf("valu of ptr=%d\n",*ptr);
+// *ptr += 5;
+// printf("valu of x= %d\n",x);
+// printf("valu of ptr=%d\n",*ptr);
+// (*ptr)++;
+// printf("valu of x= %d\n",x);
+// printf("valu of ptr=%d\n",*ptr);
+float price=98.24;
+float *ptr=&price;
+float **pptr=&ptr;
+printf("%.2f",**pptr);
+
 
 
 
