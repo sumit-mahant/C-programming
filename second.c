@@ -403,7 +403,7 @@
 // int main(){
 //     printf("factorial  is -->%d",fact(5));
 // }
-int main(){
+// int main(){
 // int age=20;
 // int *ptr=&age;
 // int _age= *ptr;
@@ -434,9 +434,18 @@ int main(){
 // float **pptr=&ptr;
 // printf("%.2f",**pptr);
 //CALL BY VALUE 😁😁😁😁😁
-
-
-
-
+int square(int n){
+    n=n*n;
+    printf("square is >>%d\n",n);
 
 }
+
+int main(){
+    int number=5;
+    square(number);
+    printf("n=%d\n",number);
+}
+
+
+
+// }
