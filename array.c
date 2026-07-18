@@ -354,7 +354,7 @@ scanf("%d",&marks[1]);
 printf("Enter the marks of English-->>");
 scanf("%d",&marks[2]);
 
-
+printf("physics=%d  Maths=%d  English=%d",marks[0],marks[1],marks[2]);
 
 
 
