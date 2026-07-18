@@ -357,8 +357,13 @@ int main(){
 // printf("physics=%d  Maths=%d  English=%d",marks[0],marks[1],marks[2]);
 float price[3];
 printf("Enter 3 prices-->>");
+scanf("%f",price[0]);
+scanf("%f",price[1]);
+scanf("%f",price[2]);
+printf("Total price 1 =%.1f",price[0]+(0.18*price[0]));
 
-
+printf("Total price 2 =%.1f",price[1]+(0.18*price[1]));
+printf("Total price 3 =%.1f",price[2]+(0.18*price[2]));
 
 
 
