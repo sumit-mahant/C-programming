@@ -340,7 +340,7 @@ int main(){
 //         printf("Not an Armstrong Number");
 //to print a pattern!!
 // printf("hello world");
-// now time of "THE ARRAY",
+// now time of "THE ARRAY"⭐⭐⭐⭐⭐,
 // int Arr[3]={1,2,3};
 // printf("%d\n%d\n%d\n",Arr[0],Arr[1],Arr[2]);
 
@@ -355,15 +355,23 @@ int main(){
 // scanf("%d",&marks[2]);
 
 // printf("physics=%d  Maths=%d  English=%d",marks[0],marks[1],marks[2]);
-float price[3];
-printf("Enter 3 prices-->>");
-scanf("%f",price[0]);
-scanf("%f",price[1]);
-scanf("%f",price[2]);
-printf("Total price 1 =%.1f",price[0]+(0.18*price[0]));
+// float price[3];
+// printf("Enter 3 prices-->>");
+// scanf("%f",&price[0]);
+// scanf("%f",&price[1]);
+// scanf("%f",&price[2]);
+// printf("Total price 1 =%.1f\n",price[0]+(0.18*price[0]));
 
-printf("Total price 2 =%.1f",price[1]+(0.18*price[1]));
-printf("Total price 3 =%.1f",price[2]+(0.18*price[2]));
+// printf("Total price 2 =%.1f\n",price[1]+(0.18*price[1]));
+// printf("Total price 3 =%.1f\n",price[2]+(0.18*price[2]));
+//  int marks[]={10,20,30};
+//  printf("%d\n",marks[1]);
+//pointer arithmetic😊😊😊
+//case 1
+int age=20;
+int *ptr=&age;
+
+
 
 
 
