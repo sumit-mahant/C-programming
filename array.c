@@ -370,7 +370,7 @@ int main(){
 //case 1
 int age=20;
 int *ptr=&age;
-
+printf("ptr=%u\n",ptr);
 
 
 
