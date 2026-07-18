@@ -341,8 +341,8 @@ int main(){
 //to print a pattern!!
 // printf("hello world");
 // now time of "THE ARRAY",
-
-
+int Arr[3]={1,2,3};
+printf("%d\n%d\n%d\n",Arr[0],Arr[1],Arr[2]);
 
 
 
