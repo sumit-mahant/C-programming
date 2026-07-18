@@ -339,7 +339,7 @@ int main(){
 //     else
 //         printf("Not an Armstrong Number");
 //to print a pattern!!
-
+printf("hwllo world")
 
 
 
