@@ -376,7 +376,11 @@ int main(){
 // printf("ptr=%u\n",ptr);
 // ptr=ptr-2;
 // printf("ptr=%u\n",ptr);
-int page =
+int page =90;
+int range=30;
+int *ptr= &page;
+int *_ptr=&range;
+printf("diffrence=%u\n",ptr-_ptr);
 }
 
 
