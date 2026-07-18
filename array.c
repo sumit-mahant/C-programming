@@ -374,8 +374,8 @@ printf("ptr=%u\n",ptr);
 
 ptr++;
 printf("ptr=%u\n",ptr);
-
-
+ptr--;
+printf("ptr=%u\n",ptr);
 
 }
 
