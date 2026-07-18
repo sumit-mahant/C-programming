@@ -344,6 +344,17 @@ int main(){
 int Arr[3]={1,2,3};
 printf("%d\n%d\n%d\n",Arr[0],Arr[1],Arr[2]);
 
+int marks[3];
+printf("Enter the marks of physic-->>");
+scanf("%d",&marks[0]);
+
+printf("Enter the marks of Maths-->>");
+scanf("%d",&marks[1]);
+
+printf("Enter the marks of English-->>");
+scanf("%d",&marks[2]);
+
+
 
 
 
