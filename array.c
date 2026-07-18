@@ -371,10 +371,10 @@ int main(){
 int age=20;
 int *ptr=&age;
 printf("ptr=%u\n",ptr);
-
 ptr++;
+ptr=ptr+3;
 printf("ptr=%u\n",ptr);
-ptr--;
+ptr=ptr-2;
 printf("ptr=%u\n",ptr);
 
 }
