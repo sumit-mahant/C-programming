@@ -368,15 +368,15 @@ int main(){
 //  printf("%d\n",marks[1]);
 //pointer arithmetic😊😊😊
 //case 1
-int age=20;
-int *ptr=&age;
-printf("ptr=%u\n",ptr);
-// ptr++;
-ptr=ptr+3;
-printf("ptr=%u\n",ptr);
-ptr=ptr-2;
-printf("ptr=%u\n",ptr);
-
+// int age=20;
+// int *ptr=&age;
+// printf("ptr=%u\n",ptr);
+// // ptr++;
+// ptr=ptr+3;
+// printf("ptr=%u\n",ptr);
+// ptr=ptr-2;
+// printf("ptr=%u\n",ptr);
+int page =
 }
 
 
