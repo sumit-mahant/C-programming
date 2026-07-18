@@ -461,16 +461,19 @@
 // swap(x,y);
 // printf("value of x=%d && value of y=%d",x,y);
 //  
-void dowork(  int a ,  int b ,  int c, int *sum,  int *prod,  int *avg){
+void dowork(  int a ,  int b , int *sum,  int *prod,  int *avg);
+    
+int main(){
+ int a=3,b=5;
+ int sum, prod, avg;
+  dowork(a, b, &sum , &prod,&avg);
+  printf("sum ==%d,prod==%d,avg=%d\n  ",sum,prod,avg);
+
+
+}
+void dowork(  int a ,  int b , int *sum,  int *prod,  int *avg){
     *sum = a+b;
     *prod = a*b;
     *avg = (a+b)/2;
-
-}
-int main(){
- int a=3,b=5;
- int sum,prod, avg;
- 
-
 
 }
