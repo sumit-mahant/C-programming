@@ -355,6 +355,8 @@ int main(){
 // scanf("%d",&marks[2]);
 
 // printf("physics=%d  Maths=%d  English=%d",marks[0],marks[1],marks[2]);
+float price[3];
+printf("Enter 3 prices-->>");
 
 
 
