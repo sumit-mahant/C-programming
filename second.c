@@ -449,3 +449,15 @@
 //     printf("number is>>%d",number);
 // }
 // }
+//call by value!!!
+// void swap(int a ,int b){
+//     int temp=a;
+//     a=b;
+//     b=temp;
+//     printf("value of a=%d && value of b=%d\n",a,b);   
+// }
+// int main(){
+// int x=3,y=5;
+// swap(x,y);
+// printf("value of x=%d && value of y=%d",x,y);
+// }
