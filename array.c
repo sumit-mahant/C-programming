@@ -406,15 +406,19 @@ int main(){
 
 // printf(" address of the pointer =%u\n",&ptr);
 // printf(" value which store at address of age = %d",*(&age));
-int x;
-int *ptr;
-ptr = &x;
-*ptr=0;
-printf("value of x=%d\n",x);
-printf("value which store at the address=%d\n",*ptr);
-*ptr+=5;
-printf("value of x=%d\n",x);
-printf("value which store at the address=%d\n",*ptr);
+// int x;
+// int *ptr;
+// ptr = &x;
+// *ptr=0;
+// printf("value of x=%d\n",x);
+// printf("value which store at the address=%d\n",*ptr);
+// *ptr+=5;
+// printf("value of x=%d\n",x);
+// printf("value which store at the address=%d\n",*ptr);
+// (*ptr)++;
+// printf("value of x=%d\n",x);
+// printf("value which store at the address=%d\n",*ptr);
+
 
 
 }
