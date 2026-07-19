@@ -412,6 +412,10 @@ ptr = &x;
 *ptr=0;
 printf("value of x=%d\n",x);
 printf("value which store at the address=%d\n",*ptr);
+*ptr+=5;
+printf("value of x=%d\n",x);
+printf("value which store at the address=%d\n",*ptr);
+
 
 }
 
