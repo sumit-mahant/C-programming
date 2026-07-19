@@ -399,10 +399,12 @@ int age=20;
 int *ptr=&age;
 int _age=*ptr;
 printf("age=%d\n",age);
-printf("address of age=%p\n",*ptr);
-printf("value at store that address =%d\n",*ptr);
 
+printf("age=%u\n",&age);
+printf("address of age=%u\n",ptr);
+// printf("value at store that address =%d\n",*ptr);
 
+printf(" address of the pointer =%u\n",&ptr);
 
 
 }
