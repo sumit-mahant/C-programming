@@ -376,16 +376,28 @@ int main(){
 // printf("ptr=%u\n",ptr);
 // ptr=ptr-2;
 // printf("ptr=%u\n",ptr);
-int page =90;
-int range=30;
-int *ptr= &page;
-int *_ptr=&range;
-printf("diffrence=%u\n",ptr-_ptr);
+// int page =90;
+// int range=30;
+// int *ptr= &page;
+// int *_ptr=&range;
+// printf("diffrence=%u\n",ptr-_ptr);
+
+// char ch[]={'R','s','T'};
+// printf("%c\n%c\n%c\n",ch[0],ch[1],ch[2]);
+int adhar[5];
+//for input >>
+int *ptr= &adhar[0];
+for(int i=0;i<5;i++){
+    printf(" %d indax: ",i);
+    scanf("%d", (ptr + i));
+}
+//output
+for(int i=0;i<5;i++){
+    printf("%d indax= %d\n",i, *(ptr + i));
 }
 
 
-
-
+}
 
 
 
