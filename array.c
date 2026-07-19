@@ -395,16 +395,17 @@ int main(){
 // for(int i=0;i<5;i++){
 //     printf("%d indax= %d\n",i, *(ptr + i));
 // }
-int age=20;
-int *ptr=&age;
-int _age=*ptr;
-printf("age=%d\n",age);
+// int age=20;
+// int *ptr=&age;
+// int _age=*ptr;
+// printf("age=%d\n",age);
 
-printf("age=%u\n",&age);
-printf("address of age=%u\n",ptr);
+// printf("age=%u\n",&age);
+// printf("address of age=%u\n",ptr);
 // printf("value at store that address =%d\n",*ptr);
 
-printf(" address of the pointer =%u\n",&ptr);
+// printf(" address of the pointer =%u\n",&ptr);
+// printf(" value which store at address of age = %d",*(&age));
 
 
 }
