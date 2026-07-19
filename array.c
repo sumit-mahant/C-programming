@@ -384,17 +384,25 @@ int main(){
 
 // char ch[]={'R','s','T'};
 // printf("%c\n%c\n%c\n",ch[0],ch[1],ch[2]);
-int adhar[5];
+// int adhar[5];
 //for input >>
-int *ptr= &adhar[0];
-for(int i=0;i<5;i++){
-    printf(" %d indax: ",i);
-    scanf("%d", (ptr + i));
-}
-//output
-for(int i=0;i<5;i++){
-    printf("%d indax= %d\n",i, *(ptr + i));
-}
+// int *ptr= &adhar[0];
+// for(int i=0;i<5;i++){
+//     printf(" %d indax: ",i);
+//     scanf("%d", (ptr + i));
+// }
+// //output
+// for(int i=0;i<5;i++){
+//     printf("%d indax= %d\n",i, *(ptr + i));
+// }
+int age=20;
+int *ptr=&age;
+int _age=*ptr;
+printf("age=%d\n",age);
+printf("address of age=%p\n",*ptr);
+printf("value at store that address =%d\n",*ptr);
+
+
 
 
 }
