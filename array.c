@@ -486,48 +486,63 @@
 //      }
 //          return count;
 // }
-int counteven(int arr[],int n);
-int reverce(int arr[],int n);
-void printarr(int arr[],int n);
-int main(){
- int arr[]={1,2,3,4,5,6,7,8,9,10,12,14,16};
- printf("%d\n",counteven(arr,13));
-  reverce(arr,13);
-  printarr(arr,13);
+// int counteven(int arr[],int n);
+// int reverce(int arr[],int n);
+// void printarr(int arr[],int n);
+// int main(){
+//  int arr[]={1,2,3,4,5,6,7,8,9,10,12,14,16};
+//  printf("%d\n",counteven(arr,13));
+//   reverce(arr,13);
+//   printarr(arr,13);
 
-}
+// }
 
-void printarr(int arr[],int n){
- for(int i=0;i<n;i++){
-    printf("%d\t",arr[i]);
- }
-printf("\n");
-}
-int reverce(int arr[],int n){
-    for(int i=0;i< n/2;i++){
-        int firstvall=arr[i];
-        int secondvall=arr[n-i-1];
-        arr[i]=secondvall;
-        arr[n-i-1]=firstvall;
-    }
-}
-
-
+// void printarr(int arr[],int n){
+//  for(int i=0;i<n;i++){
+//     printf("%d\t",arr[i]);
+//  }
+// printf("\n");
+// }
+// int reverce(int arr[],int n){
+//     for(int i=0;i< n/2;i++){
+//         int firstvall=arr[i];
+//         int secondvall=arr[n-i-1];
+//         arr[i]=secondvall;
+//         arr[n-i-1]=firstvall;
+//     }
+// }
 
 
 
-int counteven(int arr[],int n){
-int count=0;
-for(int i=0;i<n;i++){
-    if( arr[i]%2==0){
-        count++;
-    }
-}
-    return count;
-}
+
+
+// int counteven(int arr[],int n){
+// int count=0;
+// for(int i=0;i<n;i++){
+//     if( arr[i]%2==0){
+//         count++;
+//     }
+// }
+//     return count;
+// }
 
 //fibonacci series😁😁😁😁😁😁
+int main(){
+int n;
+printf("Enter a number(   <2=:)");
+scanf("%d",&n);
 
+int fib[n];
+ fib[0]=0;
+ fib[1]=1;
+for(int i=2;i<n;i++){
+    fib[i]=fib[i-1]+fib[i-2];
+    printf("%d\t",fib[i]);
+}
+printf("\n");
+
+
+}
 
 
 
