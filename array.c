@@ -1,5 +1,5 @@
 # include<stdio.h>
-int main(){
+// int main(){
 // int a=10;
 // int b=a+10;
 // printf("%d\n",b);
@@ -427,24 +427,33 @@ int main(){
 // int *ptr=&age;
 // int *_ptr=&age2;
 // printf(" %udifference=%u\n", *_ptr,*ptr-*_ptr);
-int adhar[5];
-int *ptr=&adhar[0];
-//for Input;
-for(int i=0;i<5;i++){
-    printf("%d indax :",i);
-    scanf("%d",(ptr+i));
-    scanf("%d",&(adhar[i]));
+// int adhar[5];
+// int *ptr=&adhar[0];
+// //for Input;
+// for(int i=0;i<5;i++){
+//     printf("%d indax :",i);
+//     scanf("%d",(ptr+i));
+//     scanf("%d",&(adhar[i]));
+// }
+// //for output;
+// for(int i=0;i<5;i++){
+//     printf("%d indax=%d\n",i,*(ptr+i));
+//     printf("%d indax=%d\n",i,(adhar[i]));
+// }
+void printnum(int arr[],int n);
+
+
+int main(){
+
+    return 0;
 }
-//for output;
-for(int i=0;i<5;i++){
-    printf("%d indax=%d\n",i,*(ptr+i));
-    printf("%d indax=%d\n",i,(adhar[i]));
+void printnum(int arr[],int n){
+  for(int i=0;i<n;i++){
+printf("%d \t",arr[i]);
+  }
 }
 
 
-
-
-}
 
 
 
