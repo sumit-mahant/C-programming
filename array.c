@@ -427,7 +427,17 @@ int main(){
 // int *ptr=&age;
 // int *_ptr=&age2;
 // printf(" %udifference=%u\n", *_ptr,*ptr-*_ptr);
-
+int adhar[5];
+int *ptr=&adhar[0];
+//for Input;
+for(int i=0;i<5;i++){
+    printf("%d indax :",i);
+    scanf("%d",(ptr+i));
+}
+//for output;
+for(int i=0;i<5;i++){
+    printf("%d indax=%d",i,*(ptr+i));
+}
 
 
 
