@@ -429,6 +429,9 @@ int main(){
 // printf(" %udifference=%u\n", *_ptr,*ptr-*_ptr);
 
 
+
+
+
 }
 
 
