@@ -1,5 +1,5 @@
 # include<stdio.h>
-int main(){
+// int main(){
 // int a=10;
 // int b=a+10;
 // printf("%d\n",b);
@@ -456,21 +456,38 @@ int main(){
 //   printf("\n");
 // }
 //2 X 3
-int marks[2][3];
-marks[0][0]=90;
-marks[0][1]=95;
-marks[0][2]=70;
-marks[1][0]=80;
-marks[1][1]=100;
-marks[1][2]=50;
-printf("%d\n",marks[0][0]);
-printf("%d\n",marks[1][2]);
-printf("hello world\n")
+// int marks[2][3];
+// marks[0][0]=90;
+// marks[0][1]=95;
+// marks[0][2]=70;
+// marks[1][0]=80;
+// marks[1][1]=100;
+// marks[1][2]=50;
+// printf("%d\n",marks[0][0]);
+// printf("%d\n",marks[1][2]);
+// printf("hello world\n");
+// int countodd(int arr[],int n);
+
+// int main(){
+//     int arr[]={1,2,3,4,5,6,7,9,11};
+//     printf("%d",countodd(arr,9));
 
 
+//     return 0;
+// }
+
+// int countodd(int arr[],int n){
+//      int count=0;
+//      for(int i=0;i<n;i++){
+//         if(arr[i] %2 != 0){
+//             count++;
+//         }
+        
+//      }
+//          return count;
+// }
 
 
-}
 
 
 
