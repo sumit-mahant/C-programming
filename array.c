@@ -486,7 +486,10 @@
 //      }
 //          return count;
 // }
+void counteven(int arr[],int n){
 
+    
+}
 
 
 
