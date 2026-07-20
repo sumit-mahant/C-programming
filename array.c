@@ -433,10 +433,12 @@ int *ptr=&adhar[0];
 for(int i=0;i<5;i++){
     printf("%d indax :",i);
     scanf("%d",(ptr+i));
+    scanf("%d",&(adhar[i]));
 }
 //for output;
 for(int i=0;i<5;i++){
-    printf("%d indax=%d",i,*(ptr+i));
+    printf("%d indax=%d\n",i,*(ptr+i));
+    printf("%d indax=%d\n",i,(adhar[i]));
 }
 
 
