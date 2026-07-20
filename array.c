@@ -422,11 +422,11 @@ int main(){
 // int* ptr=&i;
 // int** pptr=&ptr;
 // printf("%d",**pptr);
-int age=22;
-int age2=20;
-int *ptr=&age;
-int *_ptr=&age2;
-printf(" %udifference=%u\n", *_ptr,*ptr-*_ptr);
+// int age=22;
+// int age2=20;
+// int *ptr=&age;
+// int *_ptr=&age2;
+// printf(" %udifference=%u\n", *_ptr,*ptr-*_ptr);
 
 
 }
