@@ -440,21 +440,21 @@
 //     printf("%d indax=%d\n",i,*(ptr+i));
 //     printf("%d indax=%d\n",i,(adhar[i]));
 // }
-void printnum(int arr[],int n);
+// void printnum(int arr[],int n);
 
 
-int main(){
-  int arr[]={20,30,40,50,60};
-  int n=5;
-  printnum(arr,5);
-    return 0;
-}
-void printnum(int arr[],int n){
-  for(int i=0;i<n;i++){
-printf("%d \t",arr[i]);
-  }
-  printf("\n");
-}
+// int main(){
+//   int arr[]={20,30,40,50,60};
+//   int n=5;
+//   printnum(arr,5 );
+//     return 0;
+// }
+// void printnum(int arr[],int n){
+//   for(int i=0;i<n;i++){
+// printf("%d \t",arr[i]);
+//   }
+//   printf("\n");
+// }
 
 
 
