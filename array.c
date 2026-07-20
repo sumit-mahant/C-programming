@@ -418,10 +418,15 @@ int main(){
 // (*ptr)++;
 // printf("value of x=%d\n",x);
 // printf("value which store at the address=%d\n",*ptr);
-int i=5;
-int* ptr=&i;
-int** pptr=&ptr;
-printf("%d",**pptr);
+// int i=5;
+// int* ptr=&i;
+// int** pptr=&ptr;
+// printf("%d",**pptr);
+int age=22;
+int age2=20;
+int *ptr=&age;
+int *_ptr=&age2;
+printf(" %udifference=%u\n", *_ptr,*ptr-*_ptr);
 
 
 }
