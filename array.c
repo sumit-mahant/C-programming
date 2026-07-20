@@ -465,6 +465,10 @@ marks[1][1]=100;
 marks[1][2]=50;
 printf("%d\n",marks[0][0]);
 printf("%d\n",marks[1][2]);
+printf("hello world\n")
+
+
+
 
 }
 
