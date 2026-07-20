@@ -1,5 +1,5 @@
 # include<stdio.h>
-// int main(){
+int main(){
 // int a=10;
 // int b=a+10;
 // printf("%d\n",b);
@@ -455,13 +455,17 @@
 //   }
 //   printf("\n");
 // }
+//2 X 3
+int marks[2][3];
+marks[0][0]=90;
+marks[0][1]=95;
+marks[0][2]=70;
+marks[1][0]=80;
+marks[1][1]=100;
+marks[1][2]=50;
+printf("%d",marks[0][0]);
 
-
-
-
-
-
-
+}
 
 
 
