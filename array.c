@@ -527,7 +527,19 @@
 // }
 
 //fibonacci series😁😁😁😁😁😁
+void printname( char arr[]){
+    for(int i=0;arr[i]!='\n';i++){
+        printf("%c",arr[i]);
+    }
+    printf("\n");
+}
+
+
 int main(){
+    char firstname[]="Sumit";
+    char lastname[]="mahant";
+    printname(firstname);
+    printname(lastname);
 // int n;
 // printf("Enter a number(   <2=:)");
 // scanf("%d",&n);
@@ -540,8 +552,11 @@ int main(){
 //     printf("%d\t",fib[i]);
 // }
 // printf("\n");
-char name[]={'S','u','m','i','t','\0'};
-char name[]="Sumit";
+// char name[]={'S','u','m','i','t','\0'};
+// char name[]="Sumit";
+
+
+
 
 }
 
