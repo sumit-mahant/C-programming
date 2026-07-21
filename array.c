@@ -540,7 +540,8 @@ int main(){
 //     printf("%d\t",fib[i]);
 // }
 // printf("\n");
-
+char name[]={'S','u','m','i','t','\0'};
+char name[]="Sumit";
 
 }
 
