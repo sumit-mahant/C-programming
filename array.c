@@ -527,15 +527,15 @@
 // }
 
 //fibonacci series😁😁😁😁😁😁
-void printstring( char arr[]){
-    for(int i=0;arr[i]  !='\0';i++){
-        printf("%c",arr[i]);
-    }
-    printf("\n");
-}
+// void printstring( char arr[]){
+//     for(int i=0;arr[i]  !='\0';i++){
+//         printf("%c",arr[i]);
+//     }
+//     printf("\n");
+// }
 
 
-int main(){
+// int main(){
     // char name[50 ];
     // char firstname[]="Sumit";
     // char lastname[]="mahant";
@@ -559,13 +559,10 @@ int main(){
 // printf("\n");
 // char name[]={'S','u','m','i','t','\0'};
 // char name[]="Sumit";
-char str[100];
-fgets(str,100,stdin);
-puts(str);
-
-
-
-}
+// char str[100];
+// fgets(str,100,stdin);
+// puts(str);
+// }
 
 
 
