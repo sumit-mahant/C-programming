@@ -560,7 +560,7 @@ int main(){
 // char name[]={'S','u','m','i','t','\0'};
 // char name[]="Sumit";
 char str[100];
-gets(str);
+fgets(str,100,stdin);
 puts(str);
 
 
