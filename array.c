@@ -536,15 +536,15 @@ void printstring( char arr[]){
 
 
 int main(){
-    char name[50];
-    char firstname[]="Sumit";
-    char lastname[]="mahant";
-    printstring(firstname);
-    printstring(lastname);
-    printf("%s",firstname);
-    printf("Enter your name-:");
-    scanf("%s",name);
-    printf("%s",name);
+    // char name[50 ];
+    // char firstname[]="Sumit";
+    // char lastname[]="mahant";
+    // printstring(firstname);
+    // printstring(lastname);
+    // printf("%s",firstname);
+    // printf("Enter your name-:");
+    // scanf("%s",name);
+    // printf("%s",name);
 // int n;
 // printf("Enter a number(   <2=:)");
 // scanf("%d",&n);
@@ -559,7 +559,9 @@ int main(){
 // printf("\n");
 // char name[]={'S','u','m','i','t','\0'};
 // char name[]="Sumit";
-
+char str[100];
+gets(str);
+puts(str);
 
 
 
