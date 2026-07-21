@@ -527,8 +527,8 @@
 // }
 
 //fibonacci series😁😁😁😁😁😁
-void printname( char arr[]){
-    for(int i=0;arr[i]!='\n';i++){
+void printstring( char arr[]){
+    for(int i=0;arr[i]  !='\0';i++){
         printf("%c",arr[i]);
     }
     printf("\n");
@@ -536,10 +536,15 @@ void printname( char arr[]){
 
 
 int main(){
+    char name[50];
     char firstname[]="Sumit";
     char lastname[]="mahant";
-    printname(firstname);
-    printname(lastname);
+    printstring(firstname);
+    printstring(lastname);
+    printf("%s",firstname);
+    printf("Enter your name-:");
+    scanf("%s",name);
+    printf("%s",name);
 // int n;
 // printf("Enter a number(   <2=:)");
 // scanf("%d",&n);
