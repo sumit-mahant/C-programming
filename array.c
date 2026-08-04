@@ -88,8 +88,8 @@
 //     printf("the number is invalid ");
 // }
 
-// // for check weather the character is uppercase OR lowercase.
-// char ch;
+// for check weather the character is uppercase OR lowercase.
+char ch;
 // printf("Enter the charcter ");
 // scanf("%c",&ch);
 
@@ -556,14 +556,37 @@
 //     fib[i]=fib[i-1]+fib[i-2];
 //     printf("%d\t",fib[i]);
 // }
-// printf("\n");
-// char name[]={'S','u','m','i','t','\0'};
+int main(){
+    printf("Hello world again ");
+printf("\n");
+char name[]={'S','u','m','i','t','\0'};
 // char name[]="Sumit";
-// char str[100];
-// fgets(str,100,stdin);
-// puts(str);
-// }
+char str[100];
+fgets(str,100,stdin);
+puts(str);
+printf("hello world\n");
+}
 
+
+
+
+// for(int i=1;i<50000;i++){
+//     printf("I love you\n");
+// }
+// int num;
+// printf("enter a number->");
+// scanf("%d",&num);
+// if(num%2==0){
+//     printf("the number is Even.");
+// }
+//     else{
+//  printf("The numbber is OOD");
+//     }
+
+
+
+
+//     return 0;
 
 
 
